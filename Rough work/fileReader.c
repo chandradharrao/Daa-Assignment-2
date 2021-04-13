@@ -8,7 +8,8 @@ int main(){
 	ssize_t read;
 	size_t len = 0;
 	char delim[] = " ";
-	int line_counter = 0;
+	//iterator for an_arr
+	int anArr_iter = 0;
 	int num_vertices = 0;
 	int** adjMatrix = NULL;
 
@@ -32,30 +33,33 @@ int main(){
 		char* tempPtr = strtok(line,delim);
 
 		//array to store the space seperated words
-		int num_cntr = 0;
+		int num_cntr = 0;//stores number of elements in an_arr
 		int* an_Arr = (int*)malloc(sizeof(int));
 
 		//printf("\nSpace seperated values are\n");
 
 		while(tempPtr!=NULL){
-			printf("\n.%s.",tempPtr);
+			printf("\n%s",tempPtr);
 			an_Arr[num_cntr] = atoi(tempPtr);
-			num_cntr++;
+			if(tempPtr!=NULL){
+				num_cntr++;
+				an_Arr = (int*)realloc(an_Arr,sizeof(int)*(num_cntr+1));
+			}
 			tempPtr = strtok(NULL,delim);
-			an_Arr = (int*)realloc(an_Arr,sizeof(int)*(num_cntr+1));
 		}
 		//account for zero getting added in the end
-		num_cntr--;
+		//num_cntr--;
 
 		printf("\nThe array with max indx %d is :",num_cntr);
-		for(int i = 0;i<=num_cntr;i++){
+		for(int i = 0;i<num_cntr;i++){
 			printf("%d,",an_Arr[i]);
 		}
 
 		//first line tells number of vertices
-		printf("\nLine counter %d",line_counter);
-		if(line_counter == 0){
-			num_vertices = an_Arr[line_counter];
+		printf("\nLine counter %d",anArr_iter);
+		if(anArr_iter == 0){
+			num_vertices = an_Arr[anArr_iter];
+			num_vertices++;//accounts for number of vertices when starting from 1 instead of 1
 			printf("\nThe number of vertices are %d",num_vertices);
 			adjMatrix = (int**)malloc(sizeof(int*)*num_vertices);
 			for(int i = 0;i<num_vertices;i++){
@@ -63,8 +67,8 @@ int main(){
 			}
 
 			//initialize with zeroes
-			for(int i = 0;i<num_vertices;i++){
-				for(int j = 0;j<num_vertices;j++){
+			for(int i = 1;i<num_vertices;i++){
+				for(int j = 1;j<num_vertices;j++){
 					adjMatrix[i][j] = 0;
 				}
 			}
@@ -74,20 +78,20 @@ int main(){
 			int neigh = 1;
 			int wei = 2;
 
-			while(wei <= num_cntr){
+			while(wei < num_cntr){
 				adjMatrix[an_Arr[0]][an_Arr[neigh]] = an_Arr[wei];
 				neigh = neigh + 2;
 				wei = wei + 2;
 			}
 		}
-		line_counter++;
+		anArr_iter++;
 	}
 
 	//print the adj matrix
 	printf("\nthe adj matrix is ");
-	for(int i = 0;i<num_vertices;i++){
+	for(int i = 1;i<num_vertices;i++){
 		printf("\n");
-		for(int j = 0;j<num_vertices;j++){
+		for(int j = 1;j<num_vertices;j++){
 			printf("%d ",adjMatrix[i][j]);
 		}
 	}
