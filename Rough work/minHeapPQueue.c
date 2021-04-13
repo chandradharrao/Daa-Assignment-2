@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-//note no zero indexing,hence inc by 1 everywhere
-
 typedef struct minHeapNode{
 	int V; //vertex number
 	int d; //distance from the src vertex
@@ -18,6 +16,7 @@ typedef struct minHeap{
 }minHeap;
 
 //create a node for min heap array
+//V->vertex Number,d->distance from dest,p->predecessor
 minHeapNode* newMinHeapNode(int V,int d,int p){
 	minHeapNode* newNode = (minHeapNode*)malloc(sizeof(minHeapNode));
 	newNode->V = V;

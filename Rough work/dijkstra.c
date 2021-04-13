@@ -2,7 +2,45 @@
 #include <stdlib.h>
 #include<math.h>
 
+typedef struct Node{
+	int value;
+	int weight;
+	struct Node* next;
+}Node;
+
+typedef struct Edge{
+	int src;
+	int dest;
+	int weight;
+}Edge;
+
+typedef struct Graph{
+	Node* adjList; 
+	int V; //num of vertices in graph
+}Graph;
+
+
+typedef struct minHeapNode{
+	int V; //vertex number
+	int d; //distance from the src vertex
+	int p; //predecessor vertex number
+}minHeapNode;
+
+typedef struct minHeap{
+	int size; //curr num of nodes in heap
+	int capacity; //max capacity of min heap
+	minHeapNode** H;//heap array containing pointers to minHeap nodes
+	int* map; //maps vertices of graph with its heap array position
+}minHeap;
+
 //account for parent vertex
+
+void printRes(int distance[],int n){
+	printf("\nDestination	Distance\n");
+	for(int i = 0;i<n;i++){
+		printf("%d\t%d\n",i,distance[i]);
+	}
+}
 
 //function that calculates distance of shortest path from given src
 //to all otehr vertices of the graph
@@ -31,7 +69,7 @@ void dijkstra(Graph* G,int dest){
 	//make the distance of dst vertex from itself zero
 	distance[dest] = 0;
 	//hence find new position of dest vertex
-	decrease(mH,dst,distance[dst]);
+	decrease(mH,dest,distance[dest]);
 	mH->size = numVert;
 
 	//consideration abut parent node
@@ -59,6 +97,6 @@ void dijkstra(Graph* G,int dest){
 
 	}
 
-	//print the distance
-
+	//print the distances
+	printRes(distance,numVert);
 }
