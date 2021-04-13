@@ -30,8 +30,8 @@ minHeap* createMinHeap(int numVert){
 	minHeap* newHeap = (minHeap*)malloc(sizeof(minHeap));
 	newHeap->capacity = numVert;
 	newHeap->size = 0; //start of with zero size
-	newHeap->H = (minHeapNode**)malloc(sizeof(minHeapNode*)*newHeap->capacity);
-	newHeap->map = (int*)malloc(sizeof(int)*newHeap->capacity);
+	newHeap->H = (minHeapNode**)malloc(sizeof(minHeapNode*)*(numVert + 1));
+	newHeap->map = (int*)malloc(sizeof(int)*(numVert + 1));
 	return newHeap;
 }
 
@@ -68,10 +68,10 @@ void heapify(minHeap* mH,int target){
 
 	printf("\n%d vs %d",H[c]->d,H[p]->d);
 	//if left child exists and is lesser
-	if(c<n && H[c]->d < H[p]->d)
+	if(c<=n && H[c]->d < H[p]->d)
 		p = c;
 	//if right child exists and is lesser
-	if(c+1<n && H[c+1]->d < H[p]->d)
+	if(c+1<=n && H[c+1]->d < H[p]->d)
 		p = c+1;
 	//swap the node to target position
 	if(p!=target){
@@ -89,21 +89,20 @@ minHeapNode* extractminMode(minHeap* mH){
 	if(isEmpty(mH->size)) return NULL;
 
 	//first node is min node
-	minHeapNode* root = (mH->H)[0];
+	minHeapNode* root = (mH->H)[1];
 
 	//replace root with last node and 
-	//decrease effective size of heap array
-	(mH->H)[0] = (mH->H)[mH->size -1];
+	(mH->H)[1] = (mH->H)[mH->size];
 
 	//update map value ie heap array position of the last node
-	(mH->map)[mH->size -1] =0;
+	(mH->map)[mH->size] = 1;
 	//update value of first node to the end of non -heap array
-	(mH->map)[0] = (mH->size) -1;
+	(mH->map)[1] = (mH->size);
 
 	//reduce heap size
 	mH->size = (mH->size) - 1;
 	//heapify the heap from the new first node
-	heapify(mH,0);
+	heapify(mH,1);
 
 	return root;
 }
@@ -124,7 +123,7 @@ void decrease(minHeap* mH,int v,int newDst){
 	//grab the node at index c and update dist
 	(mH->H)[c]->d = newDst;
 	int p = (c-1)/2;
-	while(p > 0 && mH->H[c]->d < mH->H[p]->d){
+	while(p > 1 && mH->H[c]->d < mH->H[p]->d){
 		//swap child and parent
 		swapMinHeapNodes(mH->H,p,c);
 		swapMapNodes(map,mH->H[p],mH->H[c]);
@@ -137,17 +136,18 @@ void decrease(minHeap* mH,int v,int newDst){
 }
 
 void printHeap(minHeapNode** H,int n){
-	for(int i = 0;i<n;i++){
+	for(int i = 1;i<=n;i++){
 		printf("%d,",H[i]->V);
 	}
 	printf("..................\n");
 }
 
+/*
 int main(){
 	int arr[6][3] = {{6,6,0},{4,4,0},{3,3,0},{1,1,0},{2,2,0},{5,5,0}};
 	minHeap* newHeap = (minHeap*)malloc(sizeof(minHeap));
 	minHeapNode** x = (minHeapNode**)malloc(sizeof(minHeapNode*)*6);
-	for(int i = 0;i<6;i++){
+	for(int i = 1;i<=6;i++){
 		minHeapNode* y = (minHeapNode*)malloc(sizeof(minHeapNode));
 		y->V = arr[i][0];
 		y->d = arr[i][1];
@@ -172,5 +172,5 @@ int main(){
 	}
 	return 0;
 }
-
+*/
 
