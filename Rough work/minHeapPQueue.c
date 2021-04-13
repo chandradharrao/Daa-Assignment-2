@@ -18,21 +18,21 @@ typedef struct minHeap{
 }minHeap;
 
 //create a node of min heap
-minHeap newMinHeapNode(int V,int d,int p){
+minHeapNode* newMinHeapNode(int V,int d,int p){
 	minHeapNode* newNode = (minHeapNode*)malloc(sizeof(minHeapNode));
-	minHeapNode->V = V;
+	newNode->V = V;
 	newNode->d = d;
 	newNode->p = p;
 	return newNode;
 }
 
-minHeap createMinHeap(int numVert){
-	minHeap* newHeap = (minHeapNode*)malloc(sizeof(minHeap));
-	minHeap->capacity = numVert;
-	minHeap->size = 0; //start of with zero size
-	minHeap->H = (minHeapNode**)malloc(sizeof(minHeapNode*)*minHeap->capacity);
-	minHeap->map = (int*)malloc(sizeof(int)*minHeap->capacity);
-	return minHeap;
+minHeap* createMinHeap(int numVert){
+	minHeap* newHeap = (minHeap*)malloc(sizeof(minHeap));
+	newHeap->capacity = numVert;
+	newHeap->size = 0; //start of with zero size
+	newHeap->H = (minHeapNode**)malloc(sizeof(minHeapNode*)*newHeap->capacity);
+	newHeap->map = (int*)malloc(sizeof(int)*newHeap->capacity);
+	return newHeap;
 }
 
 //check if heap is empty
@@ -110,6 +110,26 @@ bool doesContain(minHeap* mH,int V){
 	//accounted for vetrex scheme of 1 to V
 	if(V <= mH->size) return true;
 	return false;
+}
+
+//reduce the dist value of the vertex v from the map and reheapify
+void decrease(minHeap* mH,int v,int newDst){
+	//grab the index in heap array of node with value v from the map
+	int* map = mH->map;
+	int c = map[v];
+	//grab the node at index c and update dist
+	(mH->H)[c]->dist = newDst;
+	int p = (c-1)/2;
+	while(p > 0 && minHeap->H[c]->d < minHeap->H[p]->d){
+		//swap child and parent
+		swapMinHeapNodes(minHeap->H,p,c);
+		swapMapNodes(map,minHeap->H[p],minHeap->H[c]);
+
+		//move child to parent pos
+		c = p;
+		//find new pparent index
+		p = (c-1)/2;
+	}
 }
 
 
