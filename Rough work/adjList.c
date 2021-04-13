@@ -15,11 +15,14 @@ typedef struct Edge{
 
 typedef struct Graph{
 	Node* adjList; 
+	int V; //num of vertices in graph
 }Graph;
 
 Graph* createGraph(int numVert){ /*n is num of vertices*/
 	Graph* G = (Graph*)malloc(sizeof(Graph));
+	//allocate size for 5 so that it would be from 1,2,3,4
 	G->adjList = (Node*)malloc(sizeof(Node)*(numVert+1));
+	G->V = numVert;
 	/*init the head vertices*/
 	for(int i = 1;i<=numVert;i++){
 		((G->adjList)[i]).next = NULL;

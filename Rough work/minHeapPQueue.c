@@ -5,7 +5,7 @@
 //note no zero indexing,hence inc by 1 everywhere
 
 typedef struct minHeapNode{
-	int V;
+	int V; //vertex number
 	int d; //distance from the src vertex
 	int p; //predecessor vertex number
 }minHeapNode;
@@ -17,7 +17,7 @@ typedef struct minHeap{
 	int* map; //maps vertices of graph with its heap array position
 }minHeap;
 
-//create a node of min heap
+//create a node for min heap array
 minHeapNode* newMinHeapNode(int V,int d,int p){
 	minHeapNode* newNode = (minHeapNode*)malloc(sizeof(minHeapNode));
 	newNode->V = V;
@@ -26,6 +26,7 @@ minHeapNode* newMinHeapNode(int V,int d,int p){
 	return newNode;
 }
 
+//creates a minimum Heap including its map and heap array
 minHeap* createMinHeap(int numVert){
 	minHeap* newHeap = (minHeap*)malloc(sizeof(minHeap));
 	newHeap->capacity = numVert;
@@ -36,11 +37,13 @@ minHeap* createMinHeap(int numVert){
 }
 
 //check if heap is empty
-bool isEmpty(int n) return (n == 0?true:false);
+bool isEmpty(int n){
+	return (n == 0?true:false);
+}
 
 //minHeap->H contains pointers to node
 //address of pointers to node are of type minHeapNode**
-void swapMinHeapNodes(minHeapNode* H,int p,int target){
+void swapMinHeapNodes(minHeapNode** H,int p,int target){
 	minHeapNode* temp = H[p];
 	H[p] = H[target];
 	H[target] = temp;
@@ -62,18 +65,20 @@ void heapify(minHeap* mH,int target){
 	p = target;//parent index
 	c = 2*p+1;//left child index
 	n = mH->size;//curr num vertices
-	H = mH->H;//the heap array
+	minHeapNode** H = mH->H;//the heap array
 
+	printf("\n%d vs %d",H[c]->d,H[p]->d);
 	//if left child exists and is lesser
-	if(c<n && H[c]<H[p])
+	if(c<n && H[c]->d < H[p]->d)
 		p = c;
 	//if right child exists and is lesser
-	if(c+1<n && H[c+1]<H[p])
+	if(c+1<n && H[c+1]->d < H[p]->d)
 		p = c+1;
 	//swap the node to target position
 	if(p!=target){
+		printf("\nFinsihed swapping...");
 		swapMinHeapNodes(H,p,target);
-		swapMapNodes(mH->map,p,target);
+		swapMapNodes(mH->map,mH->H[p],mH->H[target]);
 		int nxtPos = p;
 		//make the parent as target
 		heapify(mH,nxtPos);
@@ -94,7 +99,7 @@ minHeapNode* extractminMode(minHeap* mH){
 	//update map value ie heap array position of the last node
 	(mH->map)[mH->size -1] =0;
 	//update value of first node to the end of non -heap array
-	(mH->map)[0] = (mH->size) -1
+	(mH->map)[0] = (mH->size) -1;
 
 	//reduce heap size
 	mH->size = (mH->size) - 1;
@@ -112,18 +117,18 @@ bool doesContain(minHeap* mH,int V){
 	return false;
 }
 
-//reduce the dist value of the vertex v from the map and reheapify
+//reduce the dist value of the vertex v and reheapify
 void decrease(minHeap* mH,int v,int newDst){
 	//grab the index in heap array of node with value v from the map
 	int* map = mH->map;
 	int c = map[v];
 	//grab the node at index c and update dist
-	(mH->H)[c]->dist = newDst;
+	(mH->H)[c]->d = newDst;
 	int p = (c-1)/2;
-	while(p > 0 && minHeap->H[c]->d < minHeap->H[p]->d){
+	while(p > 0 && mH->H[c]->d < mH->H[p]->d){
 		//swap child and parent
-		swapMinHeapNodes(minHeap->H,p,c);
-		swapMapNodes(map,minHeap->H[p],minHeap->H[c]);
+		swapMinHeapNodes(mH->H,p,c);
+		swapMapNodes(map,mH->H[p],mH->H[c]);
 
 		//move child to parent pos
 		c = p;
@@ -132,6 +137,41 @@ void decrease(minHeap* mH,int v,int newDst){
 	}
 }
 
+void printHeap(minHeapNode** H,int n){
+	for(int i = 0;i<n;i++){
+		printf("%d,",H[i]->V);
+	}
+	printf("..................\n");
+}
 
+int main(){
+	int arr[6][3] = {{6,6,0},{4,4,0},{3,3,0},{1,1,0},{2,2,0},{5,5,0}};
+	minHeap* newHeap = (minHeap*)malloc(sizeof(minHeap));
+	minHeapNode** x = (minHeapNode**)malloc(sizeof(minHeapNode*)*6);
+	for(int i = 0;i<6;i++){
+		minHeapNode* y = (minHeapNode*)malloc(sizeof(minHeapNode));
+		y->V = arr[i][0];
+		y->d = arr[i][1];
+		y->p = arr[i][2];
+		x[i] = y;
+	}
+	newHeap->capacity = 6;
+	newHeap->size = 0; //start of with zero size
+	newHeap->H = x;
+	newHeap->map = (int*)malloc(sizeof(int)*newHeap->capacity);
+	
+	heapify(newHeap,0);
+	printf("\nSorted order is :");
+	while(true){
+		minHeapNode* nd = extractminMode(newHeap);
+		if(nd == NULL){
+			printf("\nReturned Null");
+			return -1;
+		}else{
+			printf("%d,",nd->d);
+		}
+	}
+	return 0;
+}
 
 
