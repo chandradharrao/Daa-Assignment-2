@@ -5,6 +5,8 @@
 #include <math.h>
 #include <unistd.h>
 
+#define INFINITY 9999
+
 typedef struct minHeapNode{
 	int V; //vertex number
 	int d; //distance from the src vertex
@@ -372,15 +374,16 @@ void dijkstra(Graph* G,int dest){
 			//if shortest distance to curr node from head is not finalized
 			//and  it Fis less than previously calc value
 			printf("\nAll bools-------------------------------------------");
-			printf("\ndoesContain(mH,v): ");
-			boolPrinter(doesContain(mH,v));
-			printf("\ndistance[xVal] != INFINITY :");
-			boolPrinter(distance[xVal] != INFINITY);
-			printf(" %d<%d : ",distance[xVal] + curr->weight,distance[v]);
+			//printf("\ndoesContain(mH,v): ");
+			//boolPrinter(doesContain(mH,v));
+			//printf("\ndistance[xVal] != INFINITY :");
+			//boolPrinter(distance[xVal] != INFINITY);
+			printf("\n%d<%d : ",distance[xVal] + curr->weight,distance[v]);
 			boolPrinter(distance[xVal] + curr->weight < distance[v]);
 			printf("\nEnd of bools------------------------------------------");
 
-			if(doesContain(mH,v) && distance[xVal] != INFINITY && distance[xVal] + curr->weight < distance[v]){
+			//if(doesContain(mH,v) && distance[xVal] != INFINITY && distance[xVal] + curr->weight < distance[v]){
+			if(distance[xVal] + curr->weight < distance[v]){
 				printf("\nDist from ");minHeapNodePrinter(x);printf(" to %d is %d",curr->value,distance[xVal] + curr->weight);
 
 				//calc new distance
@@ -515,8 +518,8 @@ int main(){
 			if(givenWeight > 0){
 				printf("\nWeight greater than zero...");
 				Edge E;
-				E.src = givenSrc;
-				E.dest = givenNeightbour;
+				E.src = givenNeightbour;
+				E.dest = givenSrc;
 				E.weight = givenWeight;
 				addVertices(G,E);
 			}
