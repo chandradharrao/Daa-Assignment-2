@@ -1,0 +1,3675 @@
+
+20
+
+20
+
+The array with max indx 1 is :20,
+Line counter 0
+The number of vertices are 21
+Created 2d Array
+14 12 2 11 3 10 7 9 5
+
+14
+12
+2
+11
+3
+10
+7
+9
+5
+
+The array with max indx 9 is :14,12,2,11,3,10,7,9,5,
+Line counter 1
+7 6 3 2 3 19 1 8 2
+
+7
+6
+3
+2
+3
+19
+1
+8
+2
+
+The array with max indx 9 is :7,6,3,2,3,19,1,8,2,
+Line counter 2
+4 14 28 12 35 13 8 18 1 16 3 15 9
+
+4
+14
+28
+12
+35
+13
+8
+18
+1
+16
+3
+15
+9
+
+The array with max indx 13 is :4,14,28,12,35,13,8,18,1,16,3,15,9,
+Line counter 3
+17 1 29 15 3 19 6 18 5 6 3
+
+17
+1
+29
+15
+3
+19
+6
+18
+5
+6
+3
+
+The array with max indx 11 is :17,1,29,15,3,19,6,18,5,6,3,
+Line counter 4
+6 5 30 18 7 7 2 17 5 19 3
+
+6
+5
+30
+18
+7
+7
+2
+17
+5
+19
+3
+
+The array with max indx 11 is :6,5,30,18,7,7,2,17,5,19,3,
+Line counter 5
+12 5 4 14 4 20 2 10 2
+
+12
+5
+4
+14
+4
+20
+2
+10
+2
+
+The array with max indx 9 is :12,5,4,14,4,20,2,10,2,
+Line counter 6
+18 4 8 6 1 15 5 17 9
+
+18
+4
+8
+6
+1
+15
+5
+17
+9
+
+The array with max indx 9 is :18,4,8,6,1,15,5,17,9,
+Line counter 7
+3 8 8 20 7 2 8 5 8
+
+3
+8
+8
+20
+7
+2
+8
+5
+8
+
+The array with max indx 9 is :3,8,8,20,7,2,8,5,8,
+Line counter 8
+2 6 22 7 9 5 7 8 2 3 6
+
+2
+6
+22
+7
+9
+5
+7
+8
+2
+3
+6
+
+The array with max indx 11 is :2,6,22,7,9,5,7,8,2,3,6,
+Line counter 9
+19 17 4 8 3 6 6 7 6
+
+19
+17
+4
+8
+3
+6
+6
+7
+6
+
+The array with max indx 9 is :19,17,4,8,3,6,6,7,6,
+Line counter 10
+13 5 31 4 2 16 4
+
+13
+5
+31
+4
+2
+16
+4
+
+The array with max indx 7 is :13,5,31,4,2,16,4,
+Line counter 11
+8 19 9 3 6 7 8 2 2
+
+8
+19
+9
+3
+6
+7
+8
+2
+2
+
+The array with max indx 9 is :8,19,9,3,6,7,8,2,2,
+Line counter 12
+1 17 34 20 27 9 2 11 1
+
+1
+17
+34
+20
+27
+9
+2
+11
+1
+
+The array with max indx 9 is :1,17,34,20,27,9,2,11,1,
+Line counter 13
+16 8 26 9 27 15 1 13 5 4 4
+
+16
+8
+26
+9
+27
+15
+1
+13
+5
+4
+4
+
+The array with max indx 11 is :16,8,26,9,27,15,1,13,5,4,4,
+Line counter 14
+11 6 31 14 3 9 8 1 3
+
+11
+6
+31
+14
+3
+9
+8
+1
+3
+
+The array with max indx 9 is :11,6,31,14,3,9,8,1,3,
+Line counter 15
+20 19 20 15 22 3 7 10 8 5 2 12 7
+
+20
+19
+20
+15
+22
+3
+7
+10
+8
+5
+2
+12
+7
+
+The array with max indx 13 is :20,19,20,15,22,3,7,10,8,5,2,12,7,
+Line counter 16
+5 2 6 12 7 3 4 20 2
+
+5
+2
+6
+12
+7
+3
+4
+20
+2
+
+The array with max indx 9 is :5,2,6,12,7,3,4,20,2,
+Line counter 17
+15 16 5 17 1 4 7 18 7
+
+15
+16
+5
+17
+1
+4
+7
+18
+7
+
+The array with max indx 9 is :15,16,5,17,1,4,7,18,7,
+Line counter 18
+10 17 32 20 4 9 5 12 6 14 5
+
+10
+17
+32
+20
+4
+9
+5
+12
+6
+14
+5
+
+The array with max indx 11 is :10,17,32,20,4,9,5,12,6,14,5,
+Line counter 19
+9 10 2 1 9 14 5 11 5
+9
+10
+2
+1
+9
+14
+5
+11
+5
+The array with max indx 9 is :9,10,2,1,9,14,5,11,5,
+Line counter 20
+the adj matrix is 
+0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 34 0 0 27 
+0 0 6 0 7 22 9 2 0 0 0 0 0 0 0 0 0 0 0 0 
+0 8 0 0 8 0 0 8 0 0 0 0 0 0 0 0 0 0 0 7 
+0 0 0 0 0 0 0 0 0 0 0 35 8 28 9 3 0 1 0 0 
+0 6 4 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 2 
+0 0 0 0 30 0 2 0 0 0 0 0 0 0 0 0 5 7 3 0 
+0 3 0 0 0 3 0 2 0 0 0 0 0 0 0 0 0 0 1 0 
+0 2 6 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 9 0 
+9 0 0 0 0 0 0 0 0 2 5 0 0 5 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 5 0 0 6 0 5 0 0 32 0 0 4 
+3 0 0 0 0 31 0 0 8 0 0 0 0 3 0 0 0 0 0 0 
+0 0 0 0 4 0 0 0 0 2 0 0 0 4 0 0 0 0 0 2 
+0 0 0 2 31 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 
+0 0 0 0 0 0 0 0 5 7 3 2 0 0 0 0 0 0 0 0 
+0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 5 1 7 0 0 
+0 0 0 4 0 0 0 26 27 0 0 0 5 0 1 0 0 0 0 0 
+29 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 5 6 0 
+0 0 0 8 0 1 0 0 0 0 0 0 0 0 5 0 9 0 0 0 
+0 0 0 0 0 6 6 3 0 0 0 0 0 0 0 0 4 0 0 0 
+0 0 7 0 2 0 0 0 0 8 0 7 0 0 22 0 0 0 20 0 
+The number of vertices is : 20
+Successful....
+(1,1)
+adjMatrix[1][1] is 0
+(1,2)
+adjMatrix[1][2] is 0
+(1,3)
+adjMatrix[1][3] is 0
+(1,4)
+adjMatrix[1][4] is 0
+(1,5)
+adjMatrix[1][5] is 0
+(1,6)
+adjMatrix[1][6] is 0
+(1,7)
+adjMatrix[1][7] is 0
+(1,8)
+adjMatrix[1][8] is 0
+(1,9)
+adjMatrix[1][9] is 2
+Weight greater than zero...
+The Edge E is :
+src:9 dst:1 weight:2
+First time attachment
+The list is :9->1(2),
+
+Done..
+(1,10)
+adjMatrix[1][10] is 0
+(1,11)
+adjMatrix[1][11] is 1
+Weight greater than zero...
+The Edge E is :
+src:11 dst:1 weight:1
+First time attachment
+The list is :11->1(1),
+
+Done..
+(1,12)
+adjMatrix[1][12] is 0
+(1,13)
+adjMatrix[1][13] is 0
+(1,14)
+adjMatrix[1][14] is 0
+(1,15)
+adjMatrix[1][15] is 0
+(1,16)
+adjMatrix[1][16] is 0
+(1,17)
+adjMatrix[1][17] is 34
+Weight greater than zero...
+The Edge E is :
+src:17 dst:1 weight:34
+First time attachment
+The list is :17->1(34),
+
+Done..
+(1,18)
+adjMatrix[1][18] is 0
+(1,19)
+adjMatrix[1][19] is 0
+(1,20)
+adjMatrix[1][20] is 27
+Weight greater than zero...
+The Edge E is :
+src:20 dst:1 weight:27
+First time attachment
+The list is :20->1(27),
+
+Done..
+outer loop..
+(2,1)
+adjMatrix[2][1] is 0
+(2,2)
+adjMatrix[2][2] is 0
+(2,3)
+adjMatrix[2][3] is 6
+Weight greater than zero...
+The Edge E is :
+src:3 dst:2 weight:6
+First time attachment
+The list is :3->2(6),
+
+Done..
+(2,4)
+adjMatrix[2][4] is 0
+(2,5)
+adjMatrix[2][5] is 7
+Weight greater than zero...
+The Edge E is :
+src:5 dst:2 weight:7
+First time attachment
+The list is :5->2(7),
+
+Done..
+(2,6)
+adjMatrix[2][6] is 22
+Weight greater than zero...
+The Edge E is :
+src:6 dst:2 weight:22
+First time attachment
+The list is :6->2(22),
+
+Done..
+(2,7)
+adjMatrix[2][7] is 9
+Weight greater than zero...
+The Edge E is :
+src:7 dst:2 weight:9
+First time attachment
+The list is :7->2(9),
+
+Done..
+(2,8)
+adjMatrix[2][8] is 2
+Weight greater than zero...
+The Edge E is :
+src:8 dst:2 weight:2
+First time attachment
+The list is :8->2(2),
+
+Done..
+(2,9)
+adjMatrix[2][9] is 0
+(2,10)
+adjMatrix[2][10] is 0
+(2,11)
+adjMatrix[2][11] is 0
+(2,12)
+adjMatrix[2][12] is 0
+(2,13)
+adjMatrix[2][13] is 0
+(2,14)
+adjMatrix[2][14] is 0
+(2,15)
+adjMatrix[2][15] is 0
+(2,16)
+adjMatrix[2][16] is 0
+(2,17)
+adjMatrix[2][17] is 0
+(2,18)
+adjMatrix[2][18] is 0
+(2,19)
+adjMatrix[2][19] is 0
+(2,20)
+adjMatrix[2][20] is 0
+outer loop..
+(3,1)
+adjMatrix[3][1] is 0
+(3,2)
+adjMatrix[3][2] is 8
+Weight greater than zero...
+The Edge E is :
+src:2 dst:3 weight:8
+First time attachment
+The list is :2->3(8),
+
+Done..
+(3,3)
+adjMatrix[3][3] is 0
+(3,4)
+adjMatrix[3][4] is 0
+(3,5)
+adjMatrix[3][5] is 8
+Weight greater than zero...
+The Edge E is :
+src:5 dst:3 weight:8
+The list is :5->2(7),3(8),
+
+Done..
+(3,6)
+adjMatrix[3][6] is 0
+(3,7)
+adjMatrix[3][7] is 0
+(3,8)
+adjMatrix[3][8] is 8
+Weight greater than zero...
+The Edge E is :
+src:8 dst:3 weight:8
+The list is :8->2(2),3(8),
+
+Done..
+(3,9)
+adjMatrix[3][9] is 0
+(3,10)
+adjMatrix[3][10] is 0
+(3,11)
+adjMatrix[3][11] is 0
+(3,12)
+adjMatrix[3][12] is 0
+(3,13)
+adjMatrix[3][13] is 0
+(3,14)
+adjMatrix[3][14] is 0
+(3,15)
+adjMatrix[3][15] is 0
+(3,16)
+adjMatrix[3][16] is 0
+(3,17)
+adjMatrix[3][17] is 0
+(3,18)
+adjMatrix[3][18] is 0
+(3,19)
+adjMatrix[3][19] is 0
+(3,20)
+adjMatrix[3][20] is 7
+Weight greater than zero...
+The Edge E is :
+src:20 dst:3 weight:7
+The list is :20->1(27),3(7),
+
+Done..
+outer loop..
+(4,1)
+adjMatrix[4][1] is 0
+(4,2)
+adjMatrix[4][2] is 0
+(4,3)
+adjMatrix[4][3] is 0
+(4,4)
+adjMatrix[4][4] is 0
+(4,5)
+adjMatrix[4][5] is 0
+(4,6)
+adjMatrix[4][6] is 0
+(4,7)
+adjMatrix[4][7] is 0
+(4,8)
+adjMatrix[4][8] is 0
+(4,9)
+adjMatrix[4][9] is 0
+(4,10)
+adjMatrix[4][10] is 0
+(4,11)
+adjMatrix[4][11] is 0
+(4,12)
+adjMatrix[4][12] is 35
+Weight greater than zero...
+The Edge E is :
+src:12 dst:4 weight:35
+First time attachment
+The list is :12->4(35),
+
+Done..
+(4,13)
+adjMatrix[4][13] is 8
+Weight greater than zero...
+The Edge E is :
+src:13 dst:4 weight:8
+First time attachment
+The list is :13->4(8),
+
+Done..
+(4,14)
+adjMatrix[4][14] is 28
+Weight greater than zero...
+The Edge E is :
+src:14 dst:4 weight:28
+First time attachment
+The list is :14->4(28),
+
+Done..
+(4,15)
+adjMatrix[4][15] is 9
+Weight greater than zero...
+The Edge E is :
+src:15 dst:4 weight:9
+First time attachment
+The list is :15->4(9),
+
+Done..
+(4,16)
+adjMatrix[4][16] is 3
+Weight greater than zero...
+The Edge E is :
+src:16 dst:4 weight:3
+First time attachment
+The list is :16->4(3),
+
+Done..
+(4,17)
+adjMatrix[4][17] is 0
+(4,18)
+adjMatrix[4][18] is 1
+Weight greater than zero...
+The Edge E is :
+src:18 dst:4 weight:1
+First time attachment
+The list is :18->4(1),
+
+Done..
+(4,19)
+adjMatrix[4][19] is 0
+(4,20)
+adjMatrix[4][20] is 0
+outer loop..
+(5,1)
+adjMatrix[5][1] is 0
+(5,2)
+adjMatrix[5][2] is 6
+Weight greater than zero...
+The Edge E is :
+src:2 dst:5 weight:6
+The list is :2->3(8),5(6),
+
+Done..
+(5,3)
+adjMatrix[5][3] is 4
+Weight greater than zero...
+The Edge E is :
+src:3 dst:5 weight:4
+The list is :3->2(6),5(4),
+
+Done..
+(5,4)
+adjMatrix[5][4] is 0
+(5,5)
+adjMatrix[5][5] is 0
+(5,6)
+adjMatrix[5][6] is 0
+(5,7)
+adjMatrix[5][7] is 0
+(5,8)
+adjMatrix[5][8] is 0
+(5,9)
+adjMatrix[5][9] is 0
+(5,10)
+adjMatrix[5][10] is 0
+(5,11)
+adjMatrix[5][11] is 0
+(5,12)
+adjMatrix[5][12] is 7
+Weight greater than zero...
+The Edge E is :
+src:12 dst:5 weight:7
+The list is :12->4(35),5(7),
+
+Done..
+(5,13)
+adjMatrix[5][13] is 0
+(5,14)
+adjMatrix[5][14] is 0
+(5,15)
+adjMatrix[5][15] is 0
+(5,16)
+adjMatrix[5][16] is 0
+(5,17)
+adjMatrix[5][17] is 0
+(5,18)
+adjMatrix[5][18] is 0
+(5,19)
+adjMatrix[5][19] is 0
+(5,20)
+adjMatrix[5][20] is 2
+Weight greater than zero...
+The Edge E is :
+src:20 dst:5 weight:2
+The list is :20->1(27),3(7),5(2),
+
+Done..
+outer loop..
+(6,1)
+adjMatrix[6][1] is 0
+(6,2)
+adjMatrix[6][2] is 0
+(6,3)
+adjMatrix[6][3] is 0
+(6,4)
+adjMatrix[6][4] is 0
+(6,5)
+adjMatrix[6][5] is 30
+Weight greater than zero...
+The Edge E is :
+src:5 dst:6 weight:30
+The list is :5->2(7),3(8),6(30),
+
+Done..
+(6,6)
+adjMatrix[6][6] is 0
+(6,7)
+adjMatrix[6][7] is 2
+Weight greater than zero...
+The Edge E is :
+src:7 dst:6 weight:2
+The list is :7->2(9),6(2),
+
+Done..
+(6,8)
+adjMatrix[6][8] is 0
+(6,9)
+adjMatrix[6][9] is 0
+(6,10)
+adjMatrix[6][10] is 0
+(6,11)
+adjMatrix[6][11] is 0
+(6,12)
+adjMatrix[6][12] is 0
+(6,13)
+adjMatrix[6][13] is 0
+(6,14)
+adjMatrix[6][14] is 0
+(6,15)
+adjMatrix[6][15] is 0
+(6,16)
+adjMatrix[6][16] is 0
+(6,17)
+adjMatrix[6][17] is 5
+Weight greater than zero...
+The Edge E is :
+src:17 dst:6 weight:5
+The list is :17->1(34),6(5),
+
+Done..
+(6,18)
+adjMatrix[6][18] is 7
+Weight greater than zero...
+The Edge E is :
+src:18 dst:6 weight:7
+The list is :18->4(1),6(7),
+
+Done..
+(6,19)
+adjMatrix[6][19] is 3
+Weight greater than zero...
+The Edge E is :
+src:19 dst:6 weight:3
+First time attachment
+The list is :19->6(3),
+
+Done..
+(6,20)
+adjMatrix[6][20] is 0
+outer loop..
+(7,1)
+adjMatrix[7][1] is 0
+(7,2)
+adjMatrix[7][2] is 3
+Weight greater than zero...
+The Edge E is :
+src:2 dst:7 weight:3
+The list is :2->3(8),5(6),7(3),
+
+Done..
+(7,3)
+adjMatrix[7][3] is 0
+(7,4)
+adjMatrix[7][4] is 0
+(7,5)
+adjMatrix[7][5] is 0
+(7,6)
+adjMatrix[7][6] is 3
+Weight greater than zero...
+The Edge E is :
+src:6 dst:7 weight:3
+The list is :6->2(22),7(3),
+
+Done..
+(7,7)
+adjMatrix[7][7] is 0
+(7,8)
+adjMatrix[7][8] is 2
+Weight greater than zero...
+The Edge E is :
+src:8 dst:7 weight:2
+The list is :8->2(2),3(8),7(2),
+
+Done..
+(7,9)
+adjMatrix[7][9] is 0
+(7,10)
+adjMatrix[7][10] is 0
+(7,11)
+adjMatrix[7][11] is 0
+(7,12)
+adjMatrix[7][12] is 0
+(7,13)
+adjMatrix[7][13] is 0
+(7,14)
+adjMatrix[7][14] is 0
+(7,15)
+adjMatrix[7][15] is 0
+(7,16)
+adjMatrix[7][16] is 0
+(7,17)
+adjMatrix[7][17] is 0
+(7,18)
+adjMatrix[7][18] is 0
+(7,19)
+adjMatrix[7][19] is 1
+Weight greater than zero...
+The Edge E is :
+src:19 dst:7 weight:1
+The list is :19->6(3),7(1),
+
+Done..
+(7,20)
+adjMatrix[7][20] is 0
+outer loop..
+(8,1)
+adjMatrix[8][1] is 0
+(8,2)
+adjMatrix[8][2] is 2
+Weight greater than zero...
+The Edge E is :
+src:2 dst:8 weight:2
+The list is :2->3(8),5(6),7(3),8(2),
+
+Done..
+(8,3)
+adjMatrix[8][3] is 6
+Weight greater than zero...
+The Edge E is :
+src:3 dst:8 weight:6
+The list is :3->2(6),5(4),8(6),
+
+Done..
+(8,4)
+adjMatrix[8][4] is 0
+(8,5)
+adjMatrix[8][5] is 0
+(8,6)
+adjMatrix[8][6] is 0
+(8,7)
+adjMatrix[8][7] is 8
+Weight greater than zero...
+The Edge E is :
+src:7 dst:8 weight:8
+The list is :7->2(9),6(2),8(8),
+
+Done..
+(8,8)
+adjMatrix[8][8] is 0
+(8,9)
+adjMatrix[8][9] is 0
+(8,10)
+adjMatrix[8][10] is 0
+(8,11)
+adjMatrix[8][11] is 0
+(8,12)
+adjMatrix[8][12] is 0
+(8,13)
+adjMatrix[8][13] is 0
+(8,14)
+adjMatrix[8][14] is 0
+(8,15)
+adjMatrix[8][15] is 0
+(8,16)
+adjMatrix[8][16] is 0
+(8,17)
+adjMatrix[8][17] is 0
+(8,18)
+adjMatrix[8][18] is 0
+(8,19)
+adjMatrix[8][19] is 9
+Weight greater than zero...
+The Edge E is :
+src:19 dst:8 weight:9
+The list is :19->6(3),7(1),8(9),
+
+Done..
+(8,20)
+adjMatrix[8][20] is 0
+outer loop..
+(9,1)
+adjMatrix[9][1] is 9
+Weight greater than zero...
+The Edge E is :
+src:1 dst:9 weight:9
+First time attachment
+The list is :1->9(9),
+
+Done..
+(9,2)
+adjMatrix[9][2] is 0
+(9,3)
+adjMatrix[9][3] is 0
+(9,4)
+adjMatrix[9][4] is 0
+(9,5)
+adjMatrix[9][5] is 0
+(9,6)
+adjMatrix[9][6] is 0
+(9,7)
+adjMatrix[9][7] is 0
+(9,8)
+adjMatrix[9][8] is 0
+(9,9)
+adjMatrix[9][9] is 0
+(9,10)
+adjMatrix[9][10] is 2
+Weight greater than zero...
+The Edge E is :
+src:10 dst:9 weight:2
+First time attachment
+The list is :10->9(2),
+
+Done..
+(9,11)
+adjMatrix[9][11] is 5
+Weight greater than zero...
+The Edge E is :
+src:11 dst:9 weight:5
+The list is :11->1(1),9(5),
+
+Done..
+(9,12)
+adjMatrix[9][12] is 0
+(9,13)
+adjMatrix[9][13] is 0
+(9,14)
+adjMatrix[9][14] is 5
+Weight greater than zero...
+The Edge E is :
+src:14 dst:9 weight:5
+The list is :14->4(28),9(5),
+
+Done..
+(9,15)
+adjMatrix[9][15] is 0
+(9,16)
+adjMatrix[9][16] is 0
+(9,17)
+adjMatrix[9][17] is 0
+(9,18)
+adjMatrix[9][18] is 0
+(9,19)
+adjMatrix[9][19] is 0
+(9,20)
+adjMatrix[9][20] is 0
+outer loop..
+(10,1)
+adjMatrix[10][1] is 0
+(10,2)
+adjMatrix[10][2] is 0
+(10,3)
+adjMatrix[10][3] is 0
+(10,4)
+adjMatrix[10][4] is 0
+(10,5)
+adjMatrix[10][5] is 0
+(10,6)
+adjMatrix[10][6] is 0
+(10,7)
+adjMatrix[10][7] is 0
+(10,8)
+adjMatrix[10][8] is 0
+(10,9)
+adjMatrix[10][9] is 5
+Weight greater than zero...
+The Edge E is :
+src:9 dst:10 weight:5
+The list is :9->1(2),10(5),
+
+Done..
+(10,10)
+adjMatrix[10][10] is 0
+(10,11)
+adjMatrix[10][11] is 0
+(10,12)
+adjMatrix[10][12] is 6
+Weight greater than zero...
+The Edge E is :
+src:12 dst:10 weight:6
+The list is :12->4(35),5(7),10(6),
+
+Done..
+(10,13)
+adjMatrix[10][13] is 0
+(10,14)
+adjMatrix[10][14] is 5
+Weight greater than zero...
+The Edge E is :
+src:14 dst:10 weight:5
+The list is :14->4(28),9(5),10(5),
+
+Done..
+(10,15)
+adjMatrix[10][15] is 0
+(10,16)
+adjMatrix[10][16] is 0
+(10,17)
+adjMatrix[10][17] is 32
+Weight greater than zero...
+The Edge E is :
+src:17 dst:10 weight:32
+The list is :17->1(34),6(5),10(32),
+
+Done..
+(10,18)
+adjMatrix[10][18] is 0
+(10,19)
+adjMatrix[10][19] is 0
+(10,20)
+adjMatrix[10][20] is 4
+Weight greater than zero...
+The Edge E is :
+src:20 dst:10 weight:4
+The list is :20->1(27),3(7),5(2),10(4),
+
+Done..
+outer loop..
+(11,1)
+adjMatrix[11][1] is 3
+Weight greater than zero...
+The Edge E is :
+src:1 dst:11 weight:3
+The list is :1->9(9),11(3),
+
+Done..
+(11,2)
+adjMatrix[11][2] is 0
+(11,3)
+adjMatrix[11][3] is 0
+(11,4)
+adjMatrix[11][4] is 0
+(11,5)
+adjMatrix[11][5] is 0
+(11,6)
+adjMatrix[11][6] is 31
+Weight greater than zero...
+The Edge E is :
+src:6 dst:11 weight:31
+The list is :6->2(22),7(3),11(31),
+
+Done..
+(11,7)
+adjMatrix[11][7] is 0
+(11,8)
+adjMatrix[11][8] is 0
+(11,9)
+adjMatrix[11][9] is 8
+Weight greater than zero...
+The Edge E is :
+src:9 dst:11 weight:8
+The list is :9->1(2),10(5),11(8),
+
+Done..
+(11,10)
+adjMatrix[11][10] is 0
+(11,11)
+adjMatrix[11][11] is 0
+(11,12)
+adjMatrix[11][12] is 0
+(11,13)
+adjMatrix[11][13] is 0
+(11,14)
+adjMatrix[11][14] is 3
+Weight greater than zero...
+The Edge E is :
+src:14 dst:11 weight:3
+The list is :14->4(28),9(5),10(5),11(3),
+
+Done..
+(11,15)
+adjMatrix[11][15] is 0
+(11,16)
+adjMatrix[11][16] is 0
+(11,17)
+adjMatrix[11][17] is 0
+(11,18)
+adjMatrix[11][18] is 0
+(11,19)
+adjMatrix[11][19] is 0
+(11,20)
+adjMatrix[11][20] is 0
+outer loop..
+(12,1)
+adjMatrix[12][1] is 0
+(12,2)
+adjMatrix[12][2] is 0
+(12,3)
+adjMatrix[12][3] is 0
+(12,4)
+adjMatrix[12][4] is 0
+(12,5)
+adjMatrix[12][5] is 4
+Weight greater than zero...
+The Edge E is :
+src:5 dst:12 weight:4
+The list is :5->2(7),3(8),6(30),12(4),
+
+Done..
+(12,6)
+adjMatrix[12][6] is 0
+(12,7)
+adjMatrix[12][7] is 0
+(12,8)
+adjMatrix[12][8] is 0
+(12,9)
+adjMatrix[12][9] is 0
+(12,10)
+adjMatrix[12][10] is 2
+Weight greater than zero...
+The Edge E is :
+src:10 dst:12 weight:2
+The list is :10->9(2),12(2),
+
+Done..
+(12,11)
+adjMatrix[12][11] is 0
+(12,12)
+adjMatrix[12][12] is 0
+(12,13)
+adjMatrix[12][13] is 0
+(12,14)
+adjMatrix[12][14] is 4
+Weight greater than zero...
+The Edge E is :
+src:14 dst:12 weight:4
+The list is :14->4(28),9(5),10(5),11(3),12(4),
+
+Done..
+(12,15)
+adjMatrix[12][15] is 0
+(12,16)
+adjMatrix[12][16] is 0
+(12,17)
+adjMatrix[12][17] is 0
+(12,18)
+adjMatrix[12][18] is 0
+(12,19)
+adjMatrix[12][19] is 0
+(12,20)
+adjMatrix[12][20] is 2
+Weight greater than zero...
+The Edge E is :
+src:20 dst:12 weight:2
+The list is :20->1(27),3(7),5(2),10(4),12(2),
+
+Done..
+outer loop..
+(13,1)
+adjMatrix[13][1] is 0
+(13,2)
+adjMatrix[13][2] is 0
+(13,3)
+adjMatrix[13][3] is 0
+(13,4)
+adjMatrix[13][4] is 2
+Weight greater than zero...
+The Edge E is :
+src:4 dst:13 weight:2
+First time attachment
+The list is :4->13(2),
+
+Done..
+(13,5)
+adjMatrix[13][5] is 31
+Weight greater than zero...
+The Edge E is :
+src:5 dst:13 weight:31
+The list is :5->2(7),3(8),6(30),12(4),13(31),
+
+Done..
+(13,6)
+adjMatrix[13][6] is 0
+(13,7)
+adjMatrix[13][7] is 0
+(13,8)
+adjMatrix[13][8] is 0
+(13,9)
+adjMatrix[13][9] is 0
+(13,10)
+adjMatrix[13][10] is 0
+(13,11)
+adjMatrix[13][11] is 0
+(13,12)
+adjMatrix[13][12] is 0
+(13,13)
+adjMatrix[13][13] is 0
+(13,14)
+adjMatrix[13][14] is 0
+(13,15)
+adjMatrix[13][15] is 0
+(13,16)
+adjMatrix[13][16] is 4
+Weight greater than zero...
+The Edge E is :
+src:16 dst:13 weight:4
+The list is :16->4(3),13(4),
+
+Done..
+(13,17)
+adjMatrix[13][17] is 0
+(13,18)
+adjMatrix[13][18] is 0
+(13,19)
+adjMatrix[13][19] is 0
+(13,20)
+adjMatrix[13][20] is 0
+outer loop..
+(14,1)
+adjMatrix[14][1] is 0
+(14,2)
+adjMatrix[14][2] is 0
+(14,3)
+adjMatrix[14][3] is 0
+(14,4)
+adjMatrix[14][4] is 0
+(14,5)
+adjMatrix[14][5] is 0
+(14,6)
+adjMatrix[14][6] is 0
+(14,7)
+adjMatrix[14][7] is 0
+(14,8)
+adjMatrix[14][8] is 0
+(14,9)
+adjMatrix[14][9] is 5
+Weight greater than zero...
+The Edge E is :
+src:9 dst:14 weight:5
+The list is :9->1(2),10(5),11(8),14(5),
+
+Done..
+(14,10)
+adjMatrix[14][10] is 7
+Weight greater than zero...
+The Edge E is :
+src:10 dst:14 weight:7
+The list is :10->9(2),12(2),14(7),
+
+Done..
+(14,11)
+adjMatrix[14][11] is 3
+Weight greater than zero...
+The Edge E is :
+src:11 dst:14 weight:3
+The list is :11->1(1),9(5),14(3),
+
+Done..
+(14,12)
+adjMatrix[14][12] is 2
+Weight greater than zero...
+The Edge E is :
+src:12 dst:14 weight:2
+The list is :12->4(35),5(7),10(6),14(2),
+
+Done..
+(14,13)
+adjMatrix[14][13] is 0
+(14,14)
+adjMatrix[14][14] is 0
+(14,15)
+adjMatrix[14][15] is 0
+(14,16)
+adjMatrix[14][16] is 0
+(14,17)
+adjMatrix[14][17] is 0
+(14,18)
+adjMatrix[14][18] is 0
+(14,19)
+adjMatrix[14][19] is 0
+(14,20)
+adjMatrix[14][20] is 0
+outer loop..
+(15,1)
+adjMatrix[15][1] is 0
+(15,2)
+adjMatrix[15][2] is 0
+(15,3)
+adjMatrix[15][3] is 0
+(15,4)
+adjMatrix[15][4] is 7
+Weight greater than zero...
+The Edge E is :
+src:4 dst:15 weight:7
+The list is :4->13(2),15(7),
+
+Done..
+(15,5)
+adjMatrix[15][5] is 0
+(15,6)
+adjMatrix[15][6] is 0
+(15,7)
+adjMatrix[15][7] is 0
+(15,8)
+adjMatrix[15][8] is 0
+(15,9)
+adjMatrix[15][9] is 0
+(15,10)
+adjMatrix[15][10] is 0
+(15,11)
+adjMatrix[15][11] is 0
+(15,12)
+adjMatrix[15][12] is 0
+(15,13)
+adjMatrix[15][13] is 0
+(15,14)
+adjMatrix[15][14] is 0
+(15,15)
+adjMatrix[15][15] is 0
+(15,16)
+adjMatrix[15][16] is 5
+Weight greater than zero...
+The Edge E is :
+src:16 dst:15 weight:5
+The list is :16->4(3),13(4),15(5),
+
+Done..
+(15,17)
+adjMatrix[15][17] is 1
+Weight greater than zero...
+The Edge E is :
+src:17 dst:15 weight:1
+The list is :17->1(34),6(5),10(32),15(1),
+
+Done..
+(15,18)
+adjMatrix[15][18] is 7
+Weight greater than zero...
+The Edge E is :
+src:18 dst:15 weight:7
+The list is :18->4(1),6(7),15(7),
+
+Done..
+(15,19)
+adjMatrix[15][19] is 0
+(15,20)
+adjMatrix[15][20] is 0
+outer loop..
+(16,1)
+adjMatrix[16][1] is 0
+(16,2)
+adjMatrix[16][2] is 0
+(16,3)
+adjMatrix[16][3] is 0
+(16,4)
+adjMatrix[16][4] is 4
+Weight greater than zero...
+The Edge E is :
+src:4 dst:16 weight:4
+The list is :4->13(2),15(7),16(4),
+
+Done..
+(16,5)
+adjMatrix[16][5] is 0
+(16,6)
+adjMatrix[16][6] is 0
+(16,7)
+adjMatrix[16][7] is 0
+(16,8)
+adjMatrix[16][8] is 26
+Weight greater than zero...
+The Edge E is :
+src:8 dst:16 weight:26
+The list is :8->2(2),3(8),7(2),16(26),
+
+Done..
+(16,9)
+adjMatrix[16][9] is 27
+Weight greater than zero...
+The Edge E is :
+src:9 dst:16 weight:27
+The list is :9->1(2),10(5),11(8),14(5),16(27),
+
+Done..
+(16,10)
+adjMatrix[16][10] is 0
+(16,11)
+adjMatrix[16][11] is 0
+(16,12)
+adjMatrix[16][12] is 0
+(16,13)
+adjMatrix[16][13] is 5
+Weight greater than zero...
+The Edge E is :
+src:13 dst:16 weight:5
+The list is :13->4(8),16(5),
+
+Done..
+(16,14)
+adjMatrix[16][14] is 0
+(16,15)
+adjMatrix[16][15] is 1
+Weight greater than zero...
+The Edge E is :
+src:15 dst:16 weight:1
+The list is :15->4(9),16(1),
+
+Done..
+(16,16)
+adjMatrix[16][16] is 0
+(16,17)
+adjMatrix[16][17] is 0
+(16,18)
+adjMatrix[16][18] is 0
+(16,19)
+adjMatrix[16][19] is 0
+(16,20)
+adjMatrix[16][20] is 0
+outer loop..
+(17,1)
+adjMatrix[17][1] is 29
+Weight greater than zero...
+The Edge E is :
+src:1 dst:17 weight:29
+The list is :1->9(9),11(3),17(29),
+
+Done..
+(17,2)
+adjMatrix[17][2] is 0
+(17,3)
+adjMatrix[17][3] is 0
+(17,4)
+adjMatrix[17][4] is 0
+(17,5)
+adjMatrix[17][5] is 0
+(17,6)
+adjMatrix[17][6] is 3
+Weight greater than zero...
+The Edge E is :
+src:6 dst:17 weight:3
+The list is :6->2(22),7(3),11(31),17(3),
+
+Done..
+(17,7)
+adjMatrix[17][7] is 0
+(17,8)
+adjMatrix[17][8] is 0
+(17,9)
+adjMatrix[17][9] is 0
+(17,10)
+adjMatrix[17][10] is 0
+(17,11)
+adjMatrix[17][11] is 0
+(17,12)
+adjMatrix[17][12] is 0
+(17,13)
+adjMatrix[17][13] is 0
+(17,14)
+adjMatrix[17][14] is 0
+(17,15)
+adjMatrix[17][15] is 3
+Weight greater than zero...
+The Edge E is :
+src:15 dst:17 weight:3
+The list is :15->4(9),16(1),17(3),
+
+Done..
+(17,16)
+adjMatrix[17][16] is 0
+(17,17)
+adjMatrix[17][17] is 0
+(17,18)
+adjMatrix[17][18] is 5
+Weight greater than zero...
+The Edge E is :
+src:18 dst:17 weight:5
+The list is :18->4(1),6(7),15(7),17(5),
+
+Done..
+(17,19)
+adjMatrix[17][19] is 6
+Weight greater than zero...
+The Edge E is :
+src:19 dst:17 weight:6
+The list is :19->6(3),7(1),8(9),17(6),
+
+Done..
+(17,20)
+adjMatrix[17][20] is 0
+outer loop..
+(18,1)
+adjMatrix[18][1] is 0
+(18,2)
+adjMatrix[18][2] is 0
+(18,3)
+adjMatrix[18][3] is 0
+(18,4)
+adjMatrix[18][4] is 8
+Weight greater than zero...
+The Edge E is :
+src:4 dst:18 weight:8
+The list is :4->13(2),15(7),16(4),18(8),
+
+Done..
+(18,5)
+adjMatrix[18][5] is 0
+(18,6)
+adjMatrix[18][6] is 1
+Weight greater than zero...
+The Edge E is :
+src:6 dst:18 weight:1
+The list is :6->2(22),7(3),11(31),17(3),18(1),
+
+Done..
+(18,7)
+adjMatrix[18][7] is 0
+(18,8)
+adjMatrix[18][8] is 0
+(18,9)
+adjMatrix[18][9] is 0
+(18,10)
+adjMatrix[18][10] is 0
+(18,11)
+adjMatrix[18][11] is 0
+(18,12)
+adjMatrix[18][12] is 0
+(18,13)
+adjMatrix[18][13] is 0
+(18,14)
+adjMatrix[18][14] is 0
+(18,15)
+adjMatrix[18][15] is 5
+Weight greater than zero...
+The Edge E is :
+src:15 dst:18 weight:5
+The list is :15->4(9),16(1),17(3),18(5),
+
+Done..
+(18,16)
+adjMatrix[18][16] is 0
+(18,17)
+adjMatrix[18][17] is 9
+Weight greater than zero...
+The Edge E is :
+src:17 dst:18 weight:9
+The list is :17->1(34),6(5),10(32),15(1),18(9),
+
+Done..
+(18,18)
+adjMatrix[18][18] is 0
+(18,19)
+adjMatrix[18][19] is 0
+(18,20)
+adjMatrix[18][20] is 0
+outer loop..
+(19,1)
+adjMatrix[19][1] is 0
+(19,2)
+adjMatrix[19][2] is 0
+(19,3)
+adjMatrix[19][3] is 0
+(19,4)
+adjMatrix[19][4] is 0
+(19,5)
+adjMatrix[19][5] is 0
+(19,6)
+adjMatrix[19][6] is 6
+Weight greater than zero...
+The Edge E is :
+src:6 dst:19 weight:6
+The list is :6->2(22),7(3),11(31),17(3),18(1),19(6),
+
+Done..
+(19,7)
+adjMatrix[19][7] is 6
+Weight greater than zero...
+The Edge E is :
+src:7 dst:19 weight:6
+The list is :7->2(9),6(2),8(8),19(6),
+
+Done..
+(19,8)
+adjMatrix[19][8] is 3
+Weight greater than zero...
+The Edge E is :
+src:8 dst:19 weight:3
+The list is :8->2(2),3(8),7(2),16(26),19(3),
+
+Done..
+(19,9)
+adjMatrix[19][9] is 0
+(19,10)
+adjMatrix[19][10] is 0
+(19,11)
+adjMatrix[19][11] is 0
+(19,12)
+adjMatrix[19][12] is 0
+(19,13)
+adjMatrix[19][13] is 0
+(19,14)
+adjMatrix[19][14] is 0
+(19,15)
+adjMatrix[19][15] is 0
+(19,16)
+adjMatrix[19][16] is 0
+(19,17)
+adjMatrix[19][17] is 4
+Weight greater than zero...
+The Edge E is :
+src:17 dst:19 weight:4
+The list is :17->1(34),6(5),10(32),15(1),18(9),19(4),
+
+Done..
+(19,18)
+adjMatrix[19][18] is 0
+(19,19)
+adjMatrix[19][19] is 0
+(19,20)
+adjMatrix[19][20] is 0
+outer loop..
+(20,1)
+adjMatrix[20][1] is 0
+(20,2)
+adjMatrix[20][2] is 0
+(20,3)
+adjMatrix[20][3] is 7
+Weight greater than zero...
+The Edge E is :
+src:3 dst:20 weight:7
+The list is :3->2(6),5(4),8(6),20(7),
+
+Done..
+(20,4)
+adjMatrix[20][4] is 0
+(20,5)
+adjMatrix[20][5] is 2
+Weight greater than zero...
+The Edge E is :
+src:5 dst:20 weight:2
+The list is :5->2(7),3(8),6(30),12(4),13(31),20(2),
+
+Done..
+(20,6)
+adjMatrix[20][6] is 0
+(20,7)
+adjMatrix[20][7] is 0
+(20,8)
+adjMatrix[20][8] is 0
+(20,9)
+adjMatrix[20][9] is 0
+(20,10)
+adjMatrix[20][10] is 8
+Weight greater than zero...
+The Edge E is :
+src:10 dst:20 weight:8
+The list is :10->9(2),12(2),14(7),20(8),
+
+Done..
+(20,11)
+adjMatrix[20][11] is 0
+(20,12)
+adjMatrix[20][12] is 7
+Weight greater than zero...
+The Edge E is :
+src:12 dst:20 weight:7
+The list is :12->4(35),5(7),10(6),14(2),20(7),
+
+Done..
+(20,13)
+adjMatrix[20][13] is 0
+(20,14)
+adjMatrix[20][14] is 0
+(20,15)
+adjMatrix[20][15] is 22
+Weight greater than zero...
+The Edge E is :
+src:15 dst:20 weight:22
+The list is :15->4(9),16(1),17(3),18(5),20(22),
+
+Done..
+(20,16)
+adjMatrix[20][16] is 0
+(20,17)
+adjMatrix[20][17] is 0
+(20,18)
+adjMatrix[20][18] is 0
+(20,19)
+adjMatrix[20][19] is 20
+Weight greater than zero...
+The Edge E is :
+src:19 dst:20 weight:20
+The list is :19->6(3),7(1),8(9),17(6),20(20),
+
+Done..
+(20,20)
+adjMatrix[20][20] is 0
+outer loop..
+Finished Making Graph....
+The list is :1->9(9),11(3),17(29),
+
+The list is :2->3(8),5(6),7(3),8(2),
+
+The list is :3->2(6),5(4),8(6),20(7),
+
+The list is :4->13(2),15(7),16(4),18(8),
+
+The list is :5->2(7),3(8),6(30),12(4),13(31),20(2),
+
+The list is :6->2(22),7(3),11(31),17(3),18(1),19(6),
+
+The list is :7->2(9),6(2),8(8),19(6),
+
+The list is :8->2(2),3(8),7(2),16(26),19(3),
+
+The list is :9->1(2),10(5),11(8),14(5),16(27),
+
+The list is :10->9(2),12(2),14(7),20(8),
+
+The list is :11->1(1),9(5),14(3),
+
+The list is :12->4(35),5(7),10(6),14(2),20(7),
+
+The list is :13->4(8),16(5),
+
+The list is :14->4(28),9(5),10(5),11(3),12(4),
+
+The list is :15->4(9),16(1),17(3),18(5),20(22),
+
+The list is :16->4(3),13(4),15(5),
+
+The list is :17->1(34),6(5),10(32),15(1),18(9),19(4),
+
+The list is :18->4(1),6(7),15(7),17(5),
+
+The list is :19->6(3),7(1),8(9),17(6),20(20),
+
+The list is :20->1(27),3(7),5(2),10(4),12(2),
+
+G->V is 20
+Creating min heap...
+Created Heap....
+Assigned Heap to mH....
+Heap is :(1,9999,0),(2,9999,0),(3,9999,0),(4,9999,0),(5,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(10,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),(20,9999,0),
+Map is :1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+Distance array is :9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,0,
+map is : 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+map indx of 20 is c:20
+Heap is :
+Parent Index is : 10
+The d val of child and parent is 0,9999
+ child val lesser than parent val
+New child and parent indx : (20,10)
+--------------
+indx1 is: 10
+indx2 is: 20
+----------------
+After swapping,heap is :
+Heap is :
+After swapping,map is : 1,2,3,4,5,6,7,8,9,20,11,12,13,14,15,16,17,18,19,10,
+p:5
+C:10
+ child val lesser than parent val
+New child and parent indx : (10,5)
+--------------
+indx1 is: 5
+indx2 is: 10
+----------------
+After swapping,heap is :
+Heap is :
+After swapping,map is : 1,2,3,4,10,6,7,8,9,20,11,12,13,14,15,16,17,18,19,5,
+p:2
+C:5
+ child val lesser than parent val
+New child and parent indx : (5,2)
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :
+After swapping,map is : 1,5,3,4,10,6,7,8,9,20,11,12,13,14,15,16,17,18,19,2,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :
+After swapping,map is : 2,5,3,4,10,6,7,8,9,20,11,12,13,14,15,16,17,18,19,1,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+Before entering dijkstra,map is : 2,5,3,4,10,6,7,8,9,20,11,12,13,14,15,16,17,18,19,1,
+Entering Dijkstras while loop............
+New Size is 19
+Called heapify on 1
+9999 vs 9999
+1 vs 1
+The extracted minHeap node is :(20,0,0)
+The heap after extraction is :
+Heap is :(10,9999,0),(1,9999,0),(3,9999,0),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After extraction,map is : 2,5,3,4,10,6,7,8,9,1,11,12,13,14,15,16,17,18,19,20,
+The adj list of 20 is:
+The list is :20->1(27),3(7),5(2),10(4),12(2),
+
+Starting Curr Node in adjList is 1(27)
+Traversing through the adj list....
+The Curr Node is 1
+All bools-------------------------------------------
+27<9999 : True
+End of bools------------------------------------------
+Dist from (20,0,0) to 1 is 27
+The distance arr after updation is :
+27,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 1.....
+map is : 2,5,3,4,10,6,7,8,9,1,11,12,13,14,15,16,17,18,19,20,
+map indx of 1 is c:2
+Heap is :(10,9999,0),(1,27,20),(3,9999,0),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+Parent Index is : 1
+The d val of child and parent is 27,9999
+ child val lesser than parent val
+New child and parent indx : (2,1)1,5,3,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(1,27,20),(10,9999,0),(3,9999,0),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 1,5,3,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 3
+All bools-------------------------------------------
+7<9999 : True
+End of bools------------------------------------------
+Dist from (20,0,0) to 3 is 7
+The distance arr after updation is :
+27,9999,7,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 3.....
+map is : 1,5,3,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+map indx of 3 is c:3
+Heap is :(1,27,20),(10,9999,0),(3,7,20),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+Parent Index is : 1
+The d val of child and parent is 7,27
+ child val lesser than parent val
+New child and parent indx : (3,1)3,5,1,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(3,7,20),(10,9999,0),(1,27,20),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,5,1,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 5
+All bools-------------------------------------------
+2<9999 : True
+End of bools------------------------------------------
+Dist from (20,0,0) to 5 is 2
+The distance arr after updation is :
+27,9999,7,9999,2,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 5.....
+map is : 3,5,1,4,10,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+map indx of 5 is c:10
+Heap is :(3,7,20),(10,9999,0),(1,27,20),(4,9999,0),(2,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(5,2,20),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+Parent Index is : 5
+The d val of child and parent is 2,9999
+ child val lesser than parent val
+New child and parent indx : (10,5)3,10,1,4,5,6,7,8,9,2,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 5
+indx2 is: 10
+----------------
+After swapping,heap is :
+Heap is :(3,7,20),(10,9999,0),(1,27,20),(4,9999,0),(5,2,20),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,1,4,5,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+p:2
+C:5
+ child val lesser than parent val
+New child and parent indx : (5,2)3,10,1,4,2,6,7,8,9,5,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(3,7,20),(5,2,20),(1,27,20),(4,9999,0),(10,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,1,4,2,6,7,8,9,5,11,12,13,14,15,16,17,18,19,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)3,10,2,4,1,6,7,8,9,5,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(3,7,20),(1,27,20),(4,9999,0),(10,9999,0),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,2,4,1,6,7,8,9,5,11,12,13,14,15,16,17,18,19,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 10
+All bools-------------------------------------------
+4<9999 : True
+End of bools------------------------------------------
+Dist from (20,0,0) to 10 is 4
+The distance arr after updation is :
+27,9999,7,9999,2,9999,9999,9999,9999,4,9999,9999,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 10.....
+map is : 3,10,2,4,1,6,7,8,9,5,11,12,13,14,15,16,17,18,19,20,
+map indx of 10 is c:5
+Heap is :(5,2,20),(3,7,20),(1,27,20),(4,9999,0),(10,4,20),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+Parent Index is : 2
+The d val of child and parent is 4,7
+ child val lesser than parent val
+New child and parent indx : (5,2)3,10,5,4,1,6,7,8,9,2,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(10,4,20),(1,27,20),(4,9999,0),(3,7,20),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,5,4,1,6,7,8,9,2,11,12,13,14,15,16,17,18,19,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)3,10,5,4,2,6,7,8,9,1,11,12,13,14,15,16,17,18,19,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(10,4,20),(5,2,20),(1,27,20),(4,9999,0),(3,7,20),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,5,4,2,6,7,8,9,1,11,12,13,14,15,16,17,18,19,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 12
+All bools-------------------------------------------
+2<9999 : True
+End of bools------------------------------------------
+Dist from (20,0,0) to 12 is 2
+The distance arr after updation is :
+27,9999,7,9999,2,9999,9999,9999,9999,4,9999,2,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 12.....
+map is : 3,10,5,4,2,6,7,8,9,1,11,12,13,14,15,16,17,18,19,20,
+map indx of 12 is c:12
+Heap is :(10,4,20),(5,2,20),(1,27,20),(4,9999,0),(3,7,20),(6,9999,0),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(12,2,20),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+Parent Index is : 6
+The d val of child and parent is 2,9999
+ child val lesser than parent val
+New child and parent indx : (12,6)3,10,5,4,2,12,7,8,9,1,11,6,13,14,15,16,17,18,19,
+--------------
+indx1 is: 6
+indx2 is: 12
+----------------
+After swapping,heap is :
+Heap is :(10,4,20),(5,2,20),(1,27,20),(4,9999,0),(3,7,20),(12,2,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 3,10,5,4,2,12,7,8,9,1,11,6,13,14,15,16,17,18,19,20,
+p:3
+C:6
+ child val lesser than parent val
+New child and parent indx : (6,3)6,10,5,4,2,12,7,8,9,1,11,3,13,14,15,16,17,18,19,
+--------------
+indx1 is: 3
+indx2 is: 6
+----------------
+After swapping,heap is :
+Heap is :(10,4,20),(5,2,20),(12,2,20),(4,9999,0),(3,7,20),(1,27,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 6,10,5,4,2,12,7,8,9,1,11,3,13,14,15,16,17,18,19,20,
+p:1
+C:3
+ child val lesser than parent val
+New child and parent indx : (3,1)6,10,5,4,2,12,7,8,9,3,11,1,13,14,15,16,17,18,19,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(12,2,20),(5,2,20),(10,4,20),(4,9999,0),(3,7,20),(1,27,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),(19,9999,0),
+After swapping,map is : 6,10,5,4,2,12,7,8,9,3,11,1,13,14,15,16,17,18,19,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+New Size is 18
+Called heapify on 1
+2 vs 9999
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+9999 vs 9999
+5 vs 2
+Parent != target
+--------------
+indx1 is: 5
+indx2 is: 2
+----------------
+Called heapify on 5
+9999 vs 9999
+5 vs 5
+The extracted minHeap node is :(12,2,20)
+The heap after extraction is :
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,9999,0),(19,9999,0),(1,27,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+After extraction,map is : 6,10,2,4,1,12,7,8,9,3,11,19,13,14,15,16,17,18,5,20,
+The adj list of 12 is:
+The list is :12->4(35),5(7),10(6),14(2),20(7),
+
+Starting Curr Node in adjList is 4(35)
+Traversing through the adj list....
+The Curr Node is 4
+All bools-------------------------------------------
+37<9999 : True
+End of bools------------------------------------------
+Dist from (12,2,20) to 4 is 37
+The distance arr after updation is :
+27,9999,7,37,2,9999,9999,9999,9999,4,9999,2,9999,9999,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 4.....
+map is : 6,10,2,4,1,12,7,8,9,3,11,19,13,14,15,16,17,18,5,20,
+map indx of 4 is c:4
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,37,12),(19,9999,0),(1,27,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+Parent Index is : 2
+The d val of child and parent is 37,7
+***********Broken out of while loop of decrease function********************
+The Curr Node is 5
+All bools-------------------------------------------
+9<2 : False
+End of bools------------------------------------------
+The Curr Node is 10
+All bools-------------------------------------------
+8<4 : False
+End of bools------------------------------------------
+The Curr Node is 14
+All bools-------------------------------------------
+4<9999 : True
+End of bools------------------------------------------
+Dist from (12,2,20) to 14 is 4
+The distance arr after updation is :
+27,9999,7,37,2,9999,9999,9999,9999,4,9999,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 14.....
+map is : 6,10,2,4,1,12,7,8,9,3,11,19,13,14,15,16,17,18,5,20,
+map indx of 14 is c:14
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,37,12),(19,9999,0),(1,27,20),(7,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(14,4,12),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+Parent Index is : 7
+The d val of child and parent is 4,9999
+ child val lesser than parent val
+New child and parent indx : (14,7)6,10,2,4,1,12,14,8,9,3,11,19,13,7,15,16,17,18,
+--------------
+indx1 is: 7
+indx2 is: 14
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,37,12),(19,9999,0),(1,27,20),(14,4,12),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+After swapping,map is : 6,10,2,4,1,12,14,8,9,3,11,19,13,7,15,16,17,18,5,20,
+p:3
+C:7
+ child val lesser than parent val
+New child and parent indx : (7,3)6,10,2,4,1,12,14,8,9,7,11,19,13,3,15,16,17,18,
+--------------
+indx1 is: 3
+indx2 is: 7
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(3,7,20),(14,4,12),(4,37,12),(19,9999,0),(1,27,20),(10,4,20),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+After swapping,map is : 6,10,2,4,1,12,14,8,9,7,11,19,13,3,15,16,17,18,5,20,
+p:1
+C:3
+ child val lesser than parent val
+New child and parent indx : (3,1)6,10,2,4,3,12,14,8,9,7,11,19,13,1,15,16,17,18,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(14,4,12),(3,7,20),(5,2,20),(4,37,12),(19,9999,0),(1,27,20),(10,4,20),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),(18,9999,0),
+After swapping,map is : 6,10,2,4,3,12,14,8,9,7,11,19,13,1,15,16,17,18,5,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 20
+All bools-------------------------------------------
+9<0 : False
+End of bools------------------------------------------
+New Size is 17
+Called heapify on 1
+7 vs 9999
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+27 vs 9999
+7 vs 3
+Parent != target
+--------------
+indx1 is: 7
+indx2 is: 3
+----------------
+Called heapify on 7
+9999 vs 9999
+7 vs 7
+The extracted minHeap node is :(14,4,12)
+The heap after extraction is :
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,37,12),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After extraction,map is : 6,10,2,4,1,12,14,8,9,3,11,19,13,18,15,16,17,7,5,20,
+The adj list of 14 is:
+The list is :14->4(28),9(5),10(5),11(3),12(4),
+
+Starting Curr Node in adjList is 4(28)
+Traversing through the adj list....
+The Curr Node is 4
+All bools-------------------------------------------
+32<37 : True
+End of bools------------------------------------------
+Dist from (14,4,12) to 4 is 32
+The distance arr after updation is :
+27,9999,7,32,2,9999,9999,9999,9999,4,9999,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 4.....
+map is : 6,10,2,4,1,12,14,8,9,3,11,19,13,18,15,16,17,7,5,20,
+map indx of 4 is c:4
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,32,14),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(9,9999,0),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+Parent Index is : 2
+The d val of child and parent is 32,7
+***********Broken out of while loop of decrease function********************
+The Curr Node is 9
+All bools-------------------------------------------
+9<9999 : True
+End of bools------------------------------------------
+Dist from (14,4,12) to 9 is 9
+The distance arr after updation is :
+27,9999,7,32,2,9999,9999,9999,9,4,9999,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 9.....
+map is : 6,10,2,4,1,12,14,8,9,3,11,19,13,18,15,16,17,7,5,20,
+map indx of 9 is c:9
+Heap is :(5,2,20),(3,7,20),(10,4,20),(4,32,14),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(9,9,14),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+Parent Index is : 4
+The d val of child and parent is 9,32
+ child val lesser than parent val
+New child and parent indx : (9,4)6,10,2,9,1,12,14,8,4,3,11,19,13,18,15,16,17,
+--------------
+indx1 is: 4
+indx2 is: 9
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(3,7,20),(10,4,20),(9,9,14),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,2,9,1,12,14,8,4,3,11,19,13,18,15,16,17,7,5,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)6,10,4,9,1,12,14,8,2,3,11,19,13,18,15,16,17,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(5,2,20),(9,9,14),(10,4,20),(3,7,20),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,4,9,1,12,14,8,2,3,11,19,13,18,15,16,17,7,5,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)6,10,4,9,2,12,14,8,1,3,11,19,13,18,15,16,17,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(9,9,14),(5,2,20),(10,4,20),(3,7,20),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(11,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,4,9,2,12,14,8,1,3,11,19,13,18,15,16,17,7,5,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 10
+All bools-------------------------------------------
+9<4 : False
+End of bools------------------------------------------
+The Curr Node is 11
+All bools-------------------------------------------
+7<9999 : True
+End of bools------------------------------------------
+Dist from (14,4,12) to 11 is 7
+The distance arr after updation is :
+27,9999,7,32,2,9999,9999,9999,9,4,7,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 11.....
+map is : 6,10,4,9,2,12,14,8,1,3,11,19,13,18,15,16,17,7,5,20,
+map indx of 11 is c:11
+Heap is :(9,9,14),(5,2,20),(10,4,20),(3,7,20),(19,9999,0),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(11,7,14),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+Parent Index is : 5
+The d val of child and parent is 7,9999
+ child val lesser than parent val
+New child and parent indx : (11,5)6,10,4,9,2,12,14,8,1,3,5,19,13,18,15,16,17,
+--------------
+indx1 is: 5
+indx2 is: 11
+----------------
+After swapping,heap is :
+Heap is :(9,9,14),(5,2,20),(10,4,20),(3,7,20),(11,7,14),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,4,9,2,12,14,8,1,3,5,19,13,18,15,16,17,7,11,20,
+p:2
+C:5
+ child val lesser than parent val
+New child and parent indx : (5,2)6,10,4,9,5,12,14,8,1,3,2,19,13,18,15,16,17,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(9,9,14),(11,7,14),(10,4,20),(3,7,20),(5,2,20),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,4,9,5,12,14,8,1,3,2,19,13,18,15,16,17,7,11,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)6,10,4,9,5,12,14,8,2,3,1,19,13,18,15,16,17,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(11,7,14),(9,9,14),(10,4,20),(3,7,20),(5,2,20),(1,27,20),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),(17,9999,0),
+After swapping,map is : 6,10,4,9,5,12,14,8,2,3,1,19,13,18,15,16,17,7,11,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 12
+All bools-------------------------------------------
+8<2 : False
+End of bools------------------------------------------
+New Size is 16
+Called heapify on 1
+9 vs 9999
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+27 vs 9999
+6 vs 3
+Parent != target
+--------------
+indx1 is: 6
+indx2 is: 3
+----------------
+Called heapify on 6
+9999 vs 9999
+6 vs 6
+The extracted minHeap node is :(11,7,14)
+The heap after extraction is :
+Heap is :(10,4,20),(9,9,14),(1,27,20),(3,7,20),(5,2,20),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),
+After extraction,map is : 3,10,4,9,5,12,14,8,2,1,17,19,13,18,15,16,6,7,11,20,
+The adj list of 11 is:
+The list is :11->1(1),9(5),14(3),
+
+Starting Curr Node in adjList is 1(1)
+Traversing through the adj list....
+The Curr Node is 1
+All bools-------------------------------------------
+8<27 : True
+End of bools------------------------------------------
+Dist from (11,7,14) to 1 is 8
+The distance arr after updation is :
+8,9999,7,32,2,9999,9999,9999,9,4,7,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 1.....
+map is : 3,10,4,9,5,12,14,8,2,1,17,19,13,18,15,16,6,7,11,20,
+map indx of 1 is c:3
+Heap is :(10,4,20),(9,9,14),(1,8,11),(3,7,20),(5,2,20),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),(16,9999,0),
+Parent Index is : 1
+The d val of child and parent is 8,4
+***********Broken out of while loop of decrease function********************
+The Curr Node is 9
+All bools-------------------------------------------
+12<9 : False
+End of bools------------------------------------------
+The Curr Node is 14
+All bools-------------------------------------------
+10<4 : False
+End of bools------------------------------------------
+New Size is 15
+Called heapify on 1
+9 vs 9999
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+9999 vs 9999
+3 vs 3
+The extracted minHeap node is :(10,4,20)
+The heap after extraction is :
+Heap is :(1,8,11),(9,9,14),(16,9999,0),(3,7,20),(5,2,20),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),
+After extraction,map is : 1,10,4,9,5,12,14,8,2,16,17,19,13,18,15,3,6,7,11,20,
+The adj list of 10 is:
+The list is :10->9(2),12(2),14(7),20(8),
+
+Starting Curr Node in adjList is 9(2)
+Traversing through the adj list....
+The Curr Node is 9
+All bools-------------------------------------------
+6<9 : True
+End of bools------------------------------------------
+Dist from (10,4,20) to 9 is 6
+The distance arr after updation is :
+8,9999,7,32,2,9999,9999,9999,6,4,7,2,9999,4,9999,9999,9999,9999,9999,0,
+Calling decrease function for vertex 9.....
+map is : 1,10,4,9,5,12,14,8,2,16,17,19,13,18,15,3,6,7,11,20,
+map indx of 9 is c:2
+Heap is :(1,8,11),(9,6,10),(16,9999,0),(3,7,20),(5,2,20),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),
+Parent Index is : 1
+The d val of child and parent is 6,8
+ child val lesser than parent val
+New child and parent indx : (2,1)2,10,4,9,5,12,14,8,1,16,17,19,13,18,15,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(9,6,10),(1,8,11),(16,9999,0),(3,7,20),(5,2,20),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),(15,9999,0),
+After swapping,map is : 2,10,4,9,5,12,14,8,1,16,17,19,13,18,15,3,6,7,11,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 12
+All bools-------------------------------------------
+6<2 : False
+End of bools------------------------------------------
+The Curr Node is 14
+All bools-------------------------------------------
+11<4 : False
+End of bools------------------------------------------
+The Curr Node is 20
+All bools-------------------------------------------
+12<0 : False
+End of bools------------------------------------------
+New Size is 14
+Called heapify on 1
+8 vs 9999
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+7 vs 9999
+5 vs 2
+Parent != target
+--------------
+indx1 is: 5
+indx2 is: 2
+----------------
+Called heapify on 5
+9999 vs 9999
+5 vs 5
+The extracted minHeap node is :(9,6,10)
+The heap after extraction is :
+Heap is :(1,8,11),(5,2,20),(16,9999,0),(3,7,20),(15,9999,0),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),
+After extraction,map is : 1,10,4,9,2,12,14,8,15,16,17,19,13,18,5,3,6,7,11,20,
+The adj list of 9 is:
+The list is :9->1(2),10(5),11(8),14(5),16(27),
+
+Starting Curr Node in adjList is 1(2)
+Traversing through the adj list....
+The Curr Node is 1
+All bools-------------------------------------------
+8<8 : False
+End of bools------------------------------------------
+The Curr Node is 10
+All bools-------------------------------------------
+11<4 : False
+End of bools------------------------------------------
+The Curr Node is 11
+All bools-------------------------------------------
+14<7 : False
+End of bools------------------------------------------
+The Curr Node is 14
+All bools-------------------------------------------
+11<4 : False
+End of bools------------------------------------------
+The Curr Node is 16
+All bools-------------------------------------------
+33<9999 : True
+End of bools------------------------------------------
+Dist from (9,6,10) to 16 is 33
+The distance arr after updation is :
+8,9999,7,32,2,9999,9999,9999,6,4,7,2,9999,4,9999,33,9999,9999,9999,0,
+Calling decrease function for vertex 16.....
+map is : 1,10,4,9,2,12,14,8,15,16,17,19,13,18,5,3,6,7,11,20,
+map indx of 16 is c:3
+Heap is :(1,8,11),(5,2,20),(16,33,9),(3,7,20),(15,9999,0),(17,9999,0),(18,9999,0),(8,9999,0),(4,32,14),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),(7,9999,0),
+Parent Index is : 1
+The d val of child and parent is 33,8
+***********Broken out of while loop of decrease function********************
+New Size is 13
+Called heapify on 1
+2 vs 9999
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+7 vs 9999
+4 vs 2
+Parent != target
+--------------
+indx1 is: 4
+indx2 is: 2
+----------------
+Called heapify on 4
+9999 vs 9999
+9 vs 4
+Parent != target
+--------------
+indx1 is: 9
+indx2 is: 4
+----------------
+Called heapify on 9
+4 vs 9999
+9 vs 9
+The extracted minHeap node is :(1,8,11)
+The heap after extraction is :
+Heap is :(5,2,20),(3,7,20),(16,33,9),(4,32,14),(15,9999,0),(17,9999,0),(18,9999,0),(8,9999,0),(7,9999,0),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),
+After extraction,map is : 14,10,2,4,1,12,9,8,15,16,17,19,13,18,5,3,6,7,11,20,
+The adj list of 1 is:
+The list is :1->9(9),11(3),17(29),
+
+Starting Curr Node in adjList is 9(9)
+Traversing through the adj list....
+The Curr Node is 9
+All bools-------------------------------------------
+17<6 : False
+End of bools------------------------------------------
+The Curr Node is 11
+All bools-------------------------------------------
+11<7 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+37<9999 : True
+End of bools------------------------------------------
+Dist from (1,8,11) to 17 is 37
+The distance arr after updation is :
+8,9999,7,32,2,9999,9999,9999,6,4,7,2,9999,4,9999,33,37,9999,9999,0,
+Calling decrease function for vertex 17.....
+map is : 14,10,2,4,1,12,9,8,15,16,17,19,13,18,5,3,6,7,11,20,
+map indx of 17 is c:6
+Heap is :(5,2,20),(3,7,20),(16,33,9),(4,32,14),(15,9999,0),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(2,9999,0),(19,9999,0),(6,9999,0),(13,9999,0),
+Parent Index is : 3
+The d val of child and parent is 37,33
+***********Broken out of while loop of decrease function********************
+New Size is 12
+Called heapify on 1
+7 vs 9999
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+32 vs 9999
+4 vs 2
+Parent != target
+--------------
+indx1 is: 4
+indx2 is: 2
+----------------
+Called heapify on 4
+9999 vs 9999
+4 vs 4
+The extracted minHeap node is :(5,2,20)
+The heap after extraction is :
+Heap is :(3,7,20),(4,32,14),(16,33,9),(13,9999,0),(15,9999,0),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(2,9999,0),(19,9999,0),(6,9999,0),
+After extraction,map is : 14,10,1,2,13,12,9,8,15,16,17,19,4,18,5,3,6,7,11,20,
+The adj list of 5 is:
+The list is :5->2(7),3(8),6(30),12(4),13(31),20(2),
+
+Starting Curr Node in adjList is 2(7)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+9<9999 : True
+End of bools------------------------------------------
+Dist from (5,2,20) to 2 is 9
+The distance arr after updation is :
+8,9,7,32,2,9999,9999,9999,6,4,7,2,9999,4,9999,33,37,9999,9999,0,
+Calling decrease function for vertex 2.....
+map is : 14,10,1,2,13,12,9,8,15,16,17,19,4,18,5,3,6,7,11,20,
+map indx of 2 is c:10
+Heap is :(3,7,20),(4,32,14),(16,33,9),(13,9999,0),(15,9999,0),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(2,9,5),(19,9999,0),(6,9999,0),
+Parent Index is : 5
+The d val of child and parent is 9,9999
+ child val lesser than parent val
+New child and parent indx : (10,5)14,5,1,2,13,12,9,8,15,16,17,19,
+--------------
+indx1 is: 5
+indx2 is: 10
+----------------
+After swapping,heap is :
+Heap is :(3,7,20),(4,32,14),(16,33,9),(13,9999,0),(2,9,5),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(6,9999,0),
+After swapping,map is : 14,5,1,2,13,12,9,8,15,16,17,19,4,18,10,3,6,7,11,20,
+p:2
+C:5
+ child val lesser than parent val
+New child and parent indx : (5,2)14,2,1,5,13,12,9,8,15,16,17,19,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(3,7,20),(2,9,5),(16,33,9),(13,9999,0),(4,32,14),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(6,9999,0),
+After swapping,map is : 14,2,1,5,13,12,9,8,15,16,17,19,4,18,10,3,6,7,11,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,1,2,5,13,12,9,8,15,16,17,19,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(3,7,20),(16,33,9),(13,9999,0),(4,32,14),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(6,9999,0),
+After swapping,map is : 14,1,2,5,13,12,9,8,15,16,17,19,4,18,10,3,6,7,11,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 3
+All bools-------------------------------------------
+10<7 : False
+End of bools------------------------------------------
+The Curr Node is 6
+All bools-------------------------------------------
+32<9999 : True
+End of bools------------------------------------------
+Dist from (5,2,20) to 6 is 32
+The distance arr after updation is :
+8,9,7,32,2,32,9999,9999,6,4,7,2,9999,4,9999,33,37,9999,9999,0,
+Calling decrease function for vertex 6.....
+map is : 14,1,2,5,13,12,9,8,15,16,17,19,4,18,10,3,6,7,11,20,
+map indx of 6 is c:12
+Heap is :(2,9,5),(3,7,20),(16,33,9),(13,9999,0),(4,32,14),(17,37,1),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(6,32,5),
+Parent Index is : 6
+The d val of child and parent is 32,37
+ child val lesser than parent val
+New child and parent indx : (12,6)14,1,2,5,13,6,9,8,15,16,17,19,
+--------------
+indx1 is: 6
+indx2 is: 12
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(3,7,20),(16,33,9),(13,9999,0),(4,32,14),(6,32,5),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(17,37,1),
+After swapping,map is : 14,1,2,5,13,6,9,8,15,16,17,19,4,18,10,3,12,7,11,20,
+p:3
+C:6
+ child val lesser than parent val
+New child and parent indx : (6,3)14,1,2,5,13,3,9,8,15,16,17,19,
+--------------
+indx1 is: 3
+indx2 is: 6
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(3,7,20),(6,32,5),(13,9999,0),(4,32,14),(16,33,9),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(17,37,1),
+After swapping,map is : 14,1,2,5,13,3,9,8,15,16,17,19,4,18,10,6,12,7,11,20,
+p:1
+C:3
+ child val lesser than parent val
+New child and parent indx : (3,1)14,3,2,5,13,1,9,8,15,16,17,19,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(6,32,5),(3,7,20),(2,9,5),(13,9999,0),(4,32,14),(16,33,9),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(17,37,1),
+After swapping,map is : 14,3,2,5,13,1,9,8,15,16,17,19,4,18,10,6,12,7,11,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 12
+All bools-------------------------------------------
+6<2 : False
+End of bools------------------------------------------
+The Curr Node is 13
+All bools-------------------------------------------
+33<9999 : True
+End of bools------------------------------------------
+Dist from (5,2,20) to 13 is 33
+The distance arr after updation is :
+8,9,7,32,2,32,9999,9999,6,4,7,2,33,4,9999,33,37,9999,9999,0,
+Calling decrease function for vertex 13.....
+map is : 14,3,2,5,13,1,9,8,15,16,17,19,4,18,10,6,12,7,11,20,
+map indx of 13 is c:4
+Heap is :(6,32,5),(3,7,20),(2,9,5),(13,33,5),(4,32,14),(16,33,9),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),(17,37,1),
+Parent Index is : 2
+The d val of child and parent is 33,7
+***********Broken out of while loop of decrease function********************
+The Curr Node is 20
+All bools-------------------------------------------
+4<0 : False
+End of bools------------------------------------------
+New Size is 11
+Called heapify on 1
+7 vs 37
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+33 vs 37
+5 vs 2
+Parent != target
+--------------
+indx1 is: 5
+indx2 is: 2
+----------------
+Called heapify on 5
+9999 vs 37
+5 vs 5
+The extracted minHeap node is :(6,32,5)
+The heap after extraction is :
+Heap is :(3,7,20),(4,32,14),(2,9,5),(13,33,5),(17,37,1),(16,33,9),(18,9999,0),(8,9999,0),(7,9999,0),(15,9999,0),(19,9999,0),
+After extraction,map is : 14,3,1,2,13,12,9,8,15,16,17,19,4,18,10,6,5,7,11,20,
+The adj list of 6 is:
+The list is :6->2(22),7(3),11(31),17(3),18(1),19(6),
+
+Starting Curr Node in adjList is 2(22)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+54<9 : False
+End of bools------------------------------------------
+The Curr Node is 7
+All bools-------------------------------------------
+35<9999 : True
+End of bools------------------------------------------
+Dist from (6,32,5) to 7 is 35
+The distance arr after updation is :
+8,9,7,32,2,32,35,9999,6,4,7,2,33,4,9999,33,37,9999,9999,0,
+Calling decrease function for vertex 7.....
+map is : 14,3,1,2,13,12,9,8,15,16,17,19,4,18,10,6,5,7,11,20,
+map indx of 7 is c:9
+Heap is :(3,7,20),(4,32,14),(2,9,5),(13,33,5),(17,37,1),(16,33,9),(18,9999,0),(8,9999,0),(7,35,6),(15,9999,0),(19,9999,0),
+Parent Index is : 4
+The d val of child and parent is 35,33
+***********Broken out of while loop of decrease function********************
+The Curr Node is 11
+All bools-------------------------------------------
+63<7 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+35<37 : True
+End of bools------------------------------------------
+Dist from (6,32,5) to 17 is 35
+The distance arr after updation is :
+8,9,7,32,2,32,35,9999,6,4,7,2,33,4,9999,33,35,9999,9999,0,
+Calling decrease function for vertex 17.....
+map is : 14,3,1,2,13,12,9,8,15,16,17,19,4,18,10,6,5,7,11,20,
+map indx of 17 is c:5
+Heap is :(3,7,20),(4,32,14),(2,9,5),(13,33,5),(17,35,6),(16,33,9),(18,9999,0),(8,9999,0),(7,35,6),(15,9999,0),(19,9999,0),
+Parent Index is : 2
+The d val of child and parent is 35,32
+***********Broken out of while loop of decrease function********************
+The Curr Node is 18
+All bools-------------------------------------------
+33<9999 : True
+End of bools------------------------------------------
+Dist from (6,32,5) to 18 is 33
+The distance arr after updation is :
+8,9,7,32,2,32,35,9999,6,4,7,2,33,4,9999,33,35,33,9999,0,
+Calling decrease function for vertex 18.....
+map is : 14,3,1,2,13,12,9,8,15,16,17,19,4,18,10,6,5,7,11,20,
+map indx of 18 is c:7
+Heap is :(3,7,20),(4,32,14),(2,9,5),(13,33,5),(17,35,6),(16,33,9),(18,33,6),(8,9999,0),(7,35,6),(15,9999,0),(19,9999,0),
+Parent Index is : 3
+The d val of child and parent is 33,9
+***********Broken out of while loop of decrease function********************
+The Curr Node is 19
+All bools-------------------------------------------
+38<9999 : True
+End of bools------------------------------------------
+Dist from (6,32,5) to 19 is 38
+The distance arr after updation is :
+8,9,7,32,2,32,35,9999,6,4,7,2,33,4,9999,33,35,33,38,0,
+Calling decrease function for vertex 19.....
+map is : 14,3,1,2,13,12,9,8,15,16,17,19,4,18,10,6,5,7,11,20,
+map indx of 19 is c:11
+Heap is :(3,7,20),(4,32,14),(2,9,5),(13,33,5),(17,35,6),(16,33,9),(18,33,6),(8,9999,0),(7,35,6),(15,9999,0),(19,38,6),
+Parent Index is : 5
+The d val of child and parent is 38,35
+***********Broken out of while loop of decrease function********************
+New Size is 10
+Called heapify on 1
+32 vs 38
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+33 vs 38
+6 vs 3
+Parent != target
+--------------
+indx1 is: 6
+indx2 is: 3
+----------------
+Called heapify on 6
+32 vs 38
+6 vs 6
+The extracted minHeap node is :(3,7,20)
+The heap after extraction is :
+Heap is :(2,9,5),(4,32,14),(16,33,9),(13,33,5),(17,35,6),(19,38,6),(18,33,6),(8,9999,0),(7,35,6),(15,9999,0),
+After extraction,map is : 14,1,11,2,13,12,9,8,15,16,17,19,4,18,10,3,5,7,6,20,
+The adj list of 3 is:
+The list is :3->2(6),5(4),8(6),20(7),
+
+Starting Curr Node in adjList is 2(6)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+13<9 : False
+End of bools------------------------------------------
+The Curr Node is 5
+All bools-------------------------------------------
+11<2 : False
+End of bools------------------------------------------
+The Curr Node is 8
+All bools-------------------------------------------
+13<9999 : True
+End of bools------------------------------------------
+Dist from (3,7,20) to 8 is 13
+The distance arr after updation is :
+8,9,7,32,2,32,35,13,6,4,7,2,33,4,9999,33,35,33,38,0,
+Calling decrease function for vertex 8.....
+map is : 14,1,11,2,13,12,9,8,15,16,17,19,4,18,10,3,5,7,6,20,
+map indx of 8 is c:8
+Heap is :(2,9,5),(4,32,14),(16,33,9),(13,33,5),(17,35,6),(19,38,6),(18,33,6),(8,13,3),(7,35,6),(15,9999,0),
+Parent Index is : 4
+The d val of child and parent is 13,33
+ child val lesser than parent val
+New child and parent indx : (8,4)14,1,11,2,13,12,9,4,15,16,
+--------------
+indx1 is: 4
+indx2 is: 8
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(4,32,14),(16,33,9),(8,13,3),(17,35,6),(19,38,6),(18,33,6),(13,33,5),(7,35,6),(15,9999,0),
+After swapping,map is : 14,1,11,2,13,12,9,4,15,16,17,19,8,18,10,3,5,7,6,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)14,1,11,4,13,12,9,2,15,16,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(8,13,3),(16,33,9),(4,32,14),(17,35,6),(19,38,6),(18,33,6),(13,33,5),(7,35,6),(15,9999,0),
+After swapping,map is : 14,1,11,4,13,12,9,2,15,16,17,19,8,18,10,3,5,7,6,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,2,11,4,13,12,9,1,15,16,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(8,13,3),(2,9,5),(16,33,9),(4,32,14),(17,35,6),(19,38,6),(18,33,6),(13,33,5),(7,35,6),(15,9999,0),
+After swapping,map is : 14,2,11,4,13,12,9,1,15,16,17,19,8,18,10,3,5,7,6,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 20
+All bools-------------------------------------------
+14<0 : False
+End of bools------------------------------------------
+New Size is 9
+Called heapify on 1
+9 vs 9999
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+32 vs 9999
+4 vs 2
+Parent != target
+--------------
+indx1 is: 4
+indx2 is: 2
+----------------
+Called heapify on 4
+33 vs 9999
+8 vs 4
+Parent != target
+--------------
+indx1 is: 8
+indx2 is: 4
+----------------
+Called heapify on 8
+4 vs 9999
+8 vs 8
+The extracted minHeap node is :(8,13,3)
+The heap after extraction is :
+Heap is :(2,9,5),(4,32,14),(16,33,9),(13,33,5),(17,35,6),(19,38,6),(18,33,6),(15,9999,0),(7,35,6),
+After extraction,map is : 14,1,11,2,13,12,9,10,15,16,17,19,4,18,8,3,5,7,6,20,
+The adj list of 8 is:
+The list is :8->2(2),3(8),7(2),16(26),19(3),
+
+Starting Curr Node in adjList is 2(2)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+15<9 : False
+End of bools------------------------------------------
+The Curr Node is 3
+All bools-------------------------------------------
+21<7 : False
+End of bools------------------------------------------
+The Curr Node is 7
+All bools-------------------------------------------
+15<35 : True
+End of bools------------------------------------------
+Dist from (8,13,3) to 7 is 15
+The distance arr after updation is :
+8,9,7,32,2,32,15,13,6,4,7,2,33,4,9999,33,35,33,38,0,
+Calling decrease function for vertex 7.....
+map is : 14,1,11,2,13,12,9,10,15,16,17,19,4,18,8,3,5,7,6,20,
+map indx of 7 is c:9
+Heap is :(2,9,5),(4,32,14),(16,33,9),(13,33,5),(17,35,6),(19,38,6),(18,33,6),(15,9999,0),(7,15,8),
+Parent Index is : 4
+The d val of child and parent is 15,33
+ child val lesser than parent val
+New child and parent indx : (9,4)14,1,11,2,13,12,4,10,15,
+--------------
+indx1 is: 4
+indx2 is: 9
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(4,32,14),(16,33,9),(7,15,8),(17,35,6),(19,38,6),(18,33,6),(15,9999,0),(13,33,5),
+After swapping,map is : 14,1,11,2,13,12,4,10,15,16,17,19,9,18,8,3,5,7,6,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)14,1,11,4,13,12,2,10,15,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(7,15,8),(16,33,9),(4,32,14),(17,35,6),(19,38,6),(18,33,6),(15,9999,0),(13,33,5),
+After swapping,map is : 14,1,11,4,13,12,2,10,15,16,17,19,9,18,8,3,5,7,6,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,2,11,4,13,12,1,10,15,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(7,15,8),(2,9,5),(16,33,9),(4,32,14),(17,35,6),(19,38,6),(18,33,6),(15,9999,0),(13,33,5),
+After swapping,map is : 14,2,11,4,13,12,1,10,15,16,17,19,9,18,8,3,5,7,6,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 16
+All bools-------------------------------------------
+39<33 : False
+End of bools------------------------------------------
+The Curr Node is 19
+All bools-------------------------------------------
+16<38 : True
+End of bools------------------------------------------
+Dist from (8,13,3) to 19 is 16
+The distance arr after updation is :
+8,9,7,32,2,32,15,13,6,4,7,2,33,4,9999,33,35,33,16,0,
+Calling decrease function for vertex 19.....
+map is : 14,2,11,4,13,12,1,10,15,16,17,19,9,18,8,3,5,7,6,20,
+map indx of 19 is c:6
+Heap is :(7,15,8),(2,9,5),(16,33,9),(4,32,14),(17,35,6),(19,16,8),(18,33,6),(15,9999,0),(13,33,5),
+Parent Index is : 3
+The d val of child and parent is 16,33
+ child val lesser than parent val
+New child and parent indx : (6,3)14,2,11,4,13,12,1,10,15,
+--------------
+indx1 is: 3
+indx2 is: 6
+----------------
+After swapping,heap is :
+Heap is :(7,15,8),(2,9,5),(19,16,8),(4,32,14),(17,35,6),(16,33,9),(18,33,6),(15,9999,0),(13,33,5),
+After swapping,map is : 14,2,11,4,13,12,1,10,15,16,17,19,9,18,8,6,5,7,3,20,
+p:1
+C:3
+ child val lesser than parent val
+New child and parent indx : (3,1)14,2,11,4,13,12,3,10,15,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(19,16,8),(2,9,5),(7,15,8),(4,32,14),(17,35,6),(16,33,9),(18,33,6),(15,9999,0),(13,33,5),
+After swapping,map is : 14,2,11,4,13,12,3,10,15,16,17,19,9,18,8,6,5,7,1,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+New Size is 8
+Called heapify on 1
+9 vs 33
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+32 vs 33
+4 vs 2
+Parent != target
+--------------
+indx1 is: 4
+indx2 is: 2
+----------------
+Called heapify on 4
+9999 vs 33
+4 vs 4
+The extracted minHeap node is :(19,16,8)
+The heap after extraction is :
+Heap is :(2,9,5),(4,32,14),(7,15,8),(13,33,5),(17,35,6),(16,33,9),(18,33,6),(15,9999,0),
+After extraction,map is : 14,1,11,2,13,12,3,10,15,16,17,19,4,18,8,6,5,7,9,20,
+The adj list of 19 is:
+The list is :19->6(3),7(1),8(9),17(6),20(20),
+
+Starting Curr Node in adjList is 6(3)
+Traversing through the adj list....
+The Curr Node is 6
+All bools-------------------------------------------
+19<32 : True
+End of bools------------------------------------------
+Dist from (19,16,8) to 6 is 19
+The distance arr after updation is :
+8,9,7,32,2,19,15,13,6,4,7,2,33,4,9999,33,35,33,16,0,
+Calling decrease function for vertex 6.....
+map is : 14,1,11,2,13,12,3,10,15,16,17,19,4,18,8,6,5,7,9,20,
+map indx of 6 is c:12
+Heap is :(2,9,5),(4,32,14),(7,15,8),(13,33,5),(17,35,6),(16,33,9),(18,33,6),(15,9999,0),
+Parent Index is : 6
+The d val of child and parent is 19,33
+ child val lesser than parent val
+New child and parent indx : (12,6)14,1,11,2,13,6,3,10,
+--------------
+indx1 is: 6
+indx2 is: 12
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(4,32,14),(7,15,8),(13,33,5),(17,35,6),(6,19,19),(18,33,6),(15,9999,0),
+After swapping,map is : 14,1,11,2,13,6,3,10,15,16,17,19,4,18,8,12,5,7,9,20,
+p:3
+C:6
+ child val lesser than parent val
+New child and parent indx : (6,3)14,1,11,2,13,3,6,10,
+--------------
+indx1 is: 3
+indx2 is: 6
+----------------
+After swapping,heap is :
+Heap is :(2,9,5),(4,32,14),(6,19,19),(13,33,5),(17,35,6),(7,15,8),(18,33,6),(15,9999,0),
+After swapping,map is : 14,1,11,2,13,3,6,10,15,16,17,19,4,18,8,12,5,7,9,20,
+p:1
+C:3
+ child val lesser than parent val
+New child and parent indx : (3,1)14,3,11,2,13,1,6,10,
+--------------
+indx1 is: 1
+indx2 is: 3
+----------------
+After swapping,heap is :
+Heap is :(6,19,19),(4,32,14),(2,9,5),(13,33,5),(17,35,6),(7,15,8),(18,33,6),(15,9999,0),
+After swapping,map is : 14,3,11,2,13,1,6,10,15,16,17,19,4,18,8,12,5,7,9,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 7
+All bools-------------------------------------------
+17<15 : False
+End of bools------------------------------------------
+The Curr Node is 8
+All bools-------------------------------------------
+25<13 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+22<35 : True
+End of bools------------------------------------------
+Dist from (19,16,8) to 17 is 22
+The distance arr after updation is :
+8,9,7,32,2,19,15,13,6,4,7,2,33,4,9999,33,22,33,16,0,
+Calling decrease function for vertex 17.....
+map is : 14,3,11,2,13,1,6,10,15,16,17,19,4,18,8,12,5,7,9,20,
+map indx of 17 is c:5
+Heap is :(6,19,19),(4,32,14),(2,9,5),(13,33,5),(17,22,19),(7,15,8),(18,33,6),(15,9999,0),
+Parent Index is : 2
+The d val of child and parent is 22,32
+ child val lesser than parent val
+New child and parent indx : (5,2)14,3,11,5,13,1,6,10,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(6,19,19),(17,22,19),(2,9,5),(13,33,5),(4,32,14),(7,15,8),(18,33,6),(15,9999,0),
+After swapping,map is : 14,3,11,5,13,1,6,10,15,16,17,19,4,18,8,12,2,7,9,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,3,11,5,13,2,6,10,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(17,22,19),(6,19,19),(2,9,5),(13,33,5),(4,32,14),(7,15,8),(18,33,6),(15,9999,0),
+After swapping,map is : 14,3,11,5,13,2,6,10,15,16,17,19,4,18,8,12,1,7,9,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 20
+All bools-------------------------------------------
+36<0 : False
+End of bools------------------------------------------
+New Size is 7
+Called heapify on 1
+19 vs 9999
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+15 vs 9999
+6 vs 3
+Parent != target
+--------------
+indx1 is: 6
+indx2 is: 3
+----------------
+Called heapify on 6
+33 vs 9999
+6 vs 6
+The extracted minHeap node is :(17,22,19)
+The heap after extraction is :
+Heap is :(2,9,5),(6,19,19),(7,15,8),(13,33,5),(4,32,14),(15,9999,0),(18,33,6),
+After extraction,map is : 14,1,11,5,13,2,3,10,15,16,17,19,4,18,6,12,8,7,9,20,
+The adj list of 17 is:
+The list is :17->1(34),6(5),10(32),15(1),18(9),19(4),
+
+Starting Curr Node in adjList is 1(34)
+Traversing through the adj list....
+The Curr Node is 1
+All bools-------------------------------------------
+56<8 : False
+End of bools------------------------------------------
+The Curr Node is 6
+All bools-------------------------------------------
+27<19 : False
+End of bools------------------------------------------
+The Curr Node is 10
+All bools-------------------------------------------
+54<4 : False
+End of bools------------------------------------------
+The Curr Node is 15
+All bools-------------------------------------------
+23<9999 : True
+End of bools------------------------------------------
+Dist from (17,22,19) to 15 is 23
+The distance arr after updation is :
+8,9,7,32,2,19,15,13,6,4,7,2,33,4,23,33,22,33,16,0,
+Calling decrease function for vertex 15.....
+map is : 14,1,11,5,13,2,3,10,15,16,17,19,4,18,6,12,8,7,9,20,
+map indx of 15 is c:6
+Heap is :(2,9,5),(6,19,19),(7,15,8),(13,33,5),(4,32,14),(15,23,17),(18,33,6),
+Parent Index is : 3
+The d val of child and parent is 23,15
+***********Broken out of while loop of decrease function********************
+The Curr Node is 18
+All bools-------------------------------------------
+31<33 : True
+End of bools------------------------------------------
+Dist from (17,22,19) to 18 is 31
+The distance arr after updation is :
+8,9,7,32,2,19,15,13,6,4,7,2,33,4,23,33,22,31,16,0,
+Calling decrease function for vertex 18.....
+map is : 14,1,11,5,13,2,3,10,15,16,17,19,4,18,6,12,8,7,9,20,
+map indx of 18 is c:7
+Heap is :(2,9,5),(6,19,19),(7,15,8),(13,33,5),(4,32,14),(15,23,17),(18,31,17),
+Parent Index is : 3
+The d val of child and parent is 31,15
+***********Broken out of while loop of decrease function********************
+The Curr Node is 19
+All bools-------------------------------------------
+26<16 : False
+End of bools------------------------------------------
+New Size is 6
+Called heapify on 1
+19 vs 31
+3 vs 1
+Parent != target
+--------------
+indx1 is: 3
+indx2 is: 1
+----------------
+Called heapify on 3
+23 vs 31
+6 vs 3
+Parent != target
+--------------
+indx1 is: 6
+indx2 is: 3
+----------------
+Called heapify on 6
+33 vs 31
+6 vs 6
+The extracted minHeap node is :(2,9,5)
+The heap after extraction is :
+Heap is :(7,15,8),(6,19,19),(15,23,17),(13,33,5),(4,32,14),(18,31,17),
+After extraction,map is : 14,7,11,5,13,2,1,10,15,16,17,19,4,18,3,12,8,6,9,20,
+The adj list of 2 is:
+The list is :2->3(8),5(6),7(3),8(2),
+
+Starting Curr Node in adjList is 3(8)
+Traversing through the adj list....
+The Curr Node is 3
+All bools-------------------------------------------
+17<7 : False
+End of bools------------------------------------------
+The Curr Node is 5
+All bools-------------------------------------------
+15<2 : False
+End of bools------------------------------------------
+The Curr Node is 7
+All bools-------------------------------------------
+12<15 : True
+End of bools------------------------------------------
+Dist from (2,9,5) to 7 is 12
+The distance arr after updation is :
+8,9,7,32,2,19,12,13,6,4,7,2,33,4,23,33,22,31,16,0,
+Calling decrease function for vertex 7.....
+map is : 14,7,11,5,13,2,1,10,15,16,17,19,4,18,3,12,8,6,9,20,
+map indx of 7 is c:1
+Heap is :(7,12,2),(6,19,19),(15,23,17),(13,33,5),(4,32,14),(18,31,17),
+Parent Index is : 0
+The d val of child and parent is 12,21869
+***********Broken out of while loop of decrease function********************
+The Curr Node is 8
+All bools-------------------------------------------
+11<13 : True
+End of bools------------------------------------------
+Dist from (2,9,5) to 8 is 11
+The distance arr after updation is :
+8,9,7,32,2,19,12,11,6,4,7,2,33,4,23,33,22,31,16,0,
+Calling decrease function for vertex 8.....
+map is : 14,7,11,5,13,2,1,10,15,16,17,19,4,18,3,12,8,6,9,20,
+map indx of 8 is c:10
+Heap is :(7,12,2),(6,19,19),(15,23,17),(13,33,5),(4,32,14),(18,31,17),
+Parent Index is : 5
+The d val of child and parent is 11,32
+ child val lesser than parent val
+New child and parent indx : (10,5)14,7,11,10,13,2,
+--------------
+indx1 is: 5
+indx2 is: 10
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(6,19,19),(15,23,17),(13,33,5),(8,11,2),(18,31,17),
+After swapping,map is : 14,7,11,10,13,2,1,5,15,16,17,19,4,18,3,12,8,6,9,20,
+p:2
+C:5
+ child val lesser than parent val
+New child and parent indx : (5,2)14,7,11,10,13,5,
+--------------
+indx1 is: 2
+indx2 is: 5
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(8,11,2),(15,23,17),(13,33,5),(6,19,19),(18,31,17),
+After swapping,map is : 14,7,11,10,13,5,1,2,15,16,17,19,4,18,3,12,8,6,9,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,7,11,10,13,5,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(8,11,2),(7,12,2),(15,23,17),(13,33,5),(6,19,19),(18,31,17),
+After swapping,map is : 14,7,11,10,13,5,2,1,15,16,17,19,4,18,3,12,8,6,9,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+New Size is 5
+Called heapify on 1
+12 vs 31
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+33 vs 31
+5 vs 2
+Parent != target
+--------------
+indx1 is: 5
+indx2 is: 2
+----------------
+Called heapify on 5
+32 vs 31
+5 vs 5
+The extracted minHeap node is :(8,11,2)
+The heap after extraction is :
+Heap is :(7,12,2),(6,19,19),(15,23,17),(13,33,5),(18,31,17),
+After extraction,map is : 14,7,11,10,13,2,1,6,15,16,17,19,4,18,3,12,8,5,9,20,
+The adj list of 8 is:
+The list is :8->2(2),3(8),7(2),16(26),19(3),
+
+Starting Curr Node in adjList is 2(2)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+13<9 : False
+End of bools------------------------------------------
+The Curr Node is 3
+All bools-------------------------------------------
+19<7 : False
+End of bools------------------------------------------
+The Curr Node is 7
+All bools-------------------------------------------
+13<12 : False
+End of bools------------------------------------------
+The Curr Node is 16
+All bools-------------------------------------------
+37<33 : False
+End of bools------------------------------------------
+The Curr Node is 19
+All bools-------------------------------------------
+14<16 : True
+End of bools------------------------------------------
+Dist from (8,11,2) to 19 is 14
+The distance arr after updation is :
+8,9,7,32,2,19,12,11,6,4,7,2,33,4,23,33,22,31,14,0,
+Calling decrease function for vertex 19.....
+map is : 14,7,11,10,13,2,1,6,15,16,17,19,4,18,3,12,8,5,9,20,
+map indx of 19 is c:9
+Heap is :(7,12,2),(6,19,19),(15,23,17),(13,33,5),(18,31,17),
+Parent Index is : 4
+The d val of child and parent is 14,33
+ child val lesser than parent val
+New child and parent indx : (9,4)14,7,11,10,13,
+--------------
+indx1 is: 4
+indx2 is: 9
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(6,19,19),(15,23,17),(19,14,8),(18,31,17),
+After swapping,map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,8,5,4,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)14,7,11,10,13,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(19,14,8),(15,23,17),(6,19,19),(18,31,17),
+After swapping,map is : 14,7,11,10,13,4,1,6,15,16,17,19,9,18,3,12,8,5,2,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,7,11,10,13,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(19,14,8),(7,12,2),(15,23,17),(6,19,19),(18,31,17),
+After swapping,map is : 14,7,11,10,13,4,2,6,15,16,17,19,9,18,3,12,8,5,1,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+New Size is 4
+Called heapify on 1
+12 vs 31
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+19 vs 31
+4 vs 2
+Parent != target
+--------------
+indx1 is: 4
+indx2 is: 2
+----------------
+Called heapify on 4
+22 vs 31
+4 vs 4
+The extracted minHeap node is :(19,14,8)
+The heap after extraction is :
+Heap is :(7,12,2),(6,19,19),(15,23,17),(18,31,17),
+After extraction,map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,8,4,5,20,
+The adj list of 19 is:
+The list is :19->6(3),7(1),8(9),17(6),20(20),
+
+Starting Curr Node in adjList is 6(3)
+Traversing through the adj list....
+The Curr Node is 6
+All bools-------------------------------------------
+17<19 : True
+End of bools------------------------------------------
+Dist from (19,14,8) to 6 is 17
+The distance arr after updation is :
+8,9,7,32,2,17,12,11,6,4,7,2,33,4,23,33,22,31,14,0,
+Calling decrease function for vertex 6.....
+map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,8,4,5,20,
+map indx of 6 is c:2
+Heap is :(7,12,2),(6,17,19),(15,23,17),(18,31,17),
+Parent Index is : 1
+The d val of child and parent is 17,12
+***********Broken out of while loop of decrease function********************
+The Curr Node is 7
+All bools-------------------------------------------
+15<12 : False
+End of bools------------------------------------------
+The Curr Node is 8
+All bools-------------------------------------------
+23<11 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+20<22 : True
+End of bools------------------------------------------
+Dist from (19,14,8) to 17 is 20
+The distance arr after updation is :
+8,9,7,32,2,17,12,11,6,4,7,2,33,4,23,33,20,31,14,0,
+Calling decrease function for vertex 17.....
+map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,8,4,5,20,
+map indx of 17 is c:8
+Heap is :(7,12,2),(6,17,19),(15,23,17),(18,31,17),
+Parent Index is : 4
+The d val of child and parent is 20,31
+ child val lesser than parent val
+New child and parent indx : (8,4)14,7,11,10,
+--------------
+indx1 is: 4
+indx2 is: 8
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(6,17,19),(15,23,17),(17,20,19),
+After swapping,map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,4,8,5,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)14,7,11,10,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(7,12,2),(17,20,19),(15,23,17),(6,17,19),
+After swapping,map is : 14,7,11,10,13,4,1,6,15,16,17,19,9,18,3,12,2,8,5,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,7,11,10,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(17,20,19),(7,12,2),(15,23,17),(6,17,19),
+After swapping,map is : 14,7,11,10,13,4,2,6,15,16,17,19,9,18,3,12,1,8,5,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 20
+All bools-------------------------------------------
+34<0 : False
+End of bools------------------------------------------
+New Size is 3
+Called heapify on 1
+12 vs 17
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+20 vs 17
+2 vs 2
+The extracted minHeap node is :(17,20,19)
+The heap after extraction is :
+Heap is :(7,12,2),(6,17,19),(15,23,17),
+After extraction,map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,4,8,5,20,
+The adj list of 17 is:
+The list is :17->1(34),6(5),10(32),15(1),18(9),19(4),
+
+Starting Curr Node in adjList is 1(34)
+Traversing through the adj list....
+The Curr Node is 1
+All bools-------------------------------------------
+54<8 : False
+End of bools------------------------------------------
+The Curr Node is 6
+All bools-------------------------------------------
+25<17 : False
+End of bools------------------------------------------
+The Curr Node is 10
+All bools-------------------------------------------
+52<4 : False
+End of bools------------------------------------------
+The Curr Node is 15
+All bools-------------------------------------------
+21<23 : True
+End of bools------------------------------------------
+Dist from (17,20,19) to 15 is 21
+The distance arr after updation is :
+8,9,7,32,2,17,12,11,6,4,7,2,33,4,21,33,20,31,14,0,
+Calling decrease function for vertex 15.....
+map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,4,8,5,20,
+map indx of 15 is c:3
+Heap is :(7,12,2),(6,17,19),(15,21,17),
+Parent Index is : 1
+The d val of child and parent is 21,12
+***********Broken out of while loop of decrease function********************
+The Curr Node is 18
+All bools-------------------------------------------
+29<31 : True
+End of bools------------------------------------------
+Dist from (17,20,19) to 18 is 29
+The distance arr after updation is :
+8,9,7,32,2,17,12,11,6,4,7,2,33,4,21,33,20,29,14,0,
+Calling decrease function for vertex 18.....
+map is : 14,7,11,10,13,2,1,6,15,16,17,19,9,18,3,12,4,8,5,20,
+map indx of 18 is c:8
+Heap is :(7,12,2),(6,17,19),(15,21,17),
+Parent Index is : 4
+The d val of child and parent is 29,20
+***********Broken out of while loop of decrease function********************
+The Curr Node is 19
+All bools-------------------------------------------
+24<14 : False
+End of bools------------------------------------------
+New Size is 2
+Called heapify on 1
+17 vs 21
+2 vs 1
+Parent != target
+--------------
+indx1 is: 2
+indx2 is: 1
+----------------
+Called heapify on 2
+20 vs 21
+2 vs 2
+The extracted minHeap node is :(7,12,2)
+The heap after extraction is :
+Heap is :(6,17,19),(15,21,17),
+After extraction,map is : 14,7,11,10,13,1,3,6,15,16,17,19,9,18,2,12,4,8,5,20,
+The adj list of 7 is:
+The list is :7->2(9),6(2),8(8),19(6),
+
+Starting Curr Node in adjList is 2(9)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+21<9 : False
+End of bools------------------------------------------
+The Curr Node is 6
+All bools-------------------------------------------
+14<17 : True
+End of bools------------------------------------------
+Dist from (7,12,2) to 6 is 14
+The distance arr after updation is :
+8,9,7,32,2,14,12,11,6,4,7,2,33,4,21,33,20,29,14,0,
+Calling decrease function for vertex 6.....
+map is : 14,7,11,10,13,1,3,6,15,16,17,19,9,18,2,12,4,8,5,20,
+map indx of 6 is c:1
+Heap is :(6,14,7),(15,21,17),
+Parent Index is : 0
+The d val of child and parent is 14,21869
+***********Broken out of while loop of decrease function********************
+The Curr Node is 8
+All bools-------------------------------------------
+20<11 : False
+End of bools------------------------------------------
+The Curr Node is 19
+All bools-------------------------------------------
+18<14 : False
+End of bools------------------------------------------
+New Size is 1
+Called heapify on 1
+14 vs 21
+1 vs 1
+The extracted minHeap node is :(6,14,7)
+The heap after extraction is :
+Heap is :(15,21,17),
+After extraction,map is : 14,7,11,10,13,2,3,6,15,16,17,19,9,18,1,12,4,8,5,20,
+The adj list of 6 is:
+The list is :6->2(22),7(3),11(31),17(3),18(1),19(6),
+
+Starting Curr Node in adjList is 2(22)
+Traversing through the adj list....
+The Curr Node is 2
+All bools-------------------------------------------
+36<9 : False
+End of bools------------------------------------------
+The Curr Node is 7
+All bools-------------------------------------------
+17<12 : False
+End of bools------------------------------------------
+The Curr Node is 11
+All bools-------------------------------------------
+45<7 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+17<20 : True
+End of bools------------------------------------------
+Dist from (6,14,7) to 17 is 17
+The distance arr after updation is :
+8,9,7,32,2,14,12,11,6,4,7,2,33,4,21,33,17,29,14,0,
+Calling decrease function for vertex 17.....
+map is : 14,7,11,10,13,2,3,6,15,16,17,19,9,18,1,12,4,8,5,20,
+map indx of 17 is c:4
+Heap is :(15,21,17),
+Parent Index is : 2
+The d val of child and parent is 17,14
+***********Broken out of while loop of decrease function********************
+The Curr Node is 18
+All bools-------------------------------------------
+15<29 : True
+End of bools------------------------------------------
+Dist from (6,14,7) to 18 is 15
+The distance arr after updation is :
+8,9,7,32,2,14,12,11,6,4,7,2,33,4,21,33,17,15,14,0,
+Calling decrease function for vertex 18.....
+map is : 14,7,11,10,13,2,3,6,15,16,17,19,9,18,1,12,4,8,5,20,
+map indx of 18 is c:8
+Heap is :(15,21,17),
+Parent Index is : 4
+The d val of child and parent is 15,17
+ child val lesser than parent val
+New child and parent indx : (8,4)14,
+--------------
+indx1 is: 4
+indx2 is: 8
+----------------
+After swapping,heap is :
+Heap is :(15,21,17),
+After swapping,map is : 14,7,11,10,13,2,3,6,15,16,17,19,9,18,1,12,8,4,5,20,
+p:2
+C:4
+ child val lesser than parent val
+New child and parent indx : (4,2)14,
+--------------
+indx1 is: 2
+indx2 is: 4
+----------------
+After swapping,heap is :
+Heap is :(15,21,17),
+After swapping,map is : 14,7,11,10,13,4,3,6,15,16,17,19,9,18,1,12,8,2,5,20,
+p:1
+C:2
+ child val lesser than parent val
+New child and parent indx : (2,1)14,
+--------------
+indx1 is: 1
+indx2 is: 2
+----------------
+After swapping,heap is :
+Heap is :(18,15,6),
+After swapping,map is : 14,7,11,10,13,4,3,6,15,16,17,19,9,18,2,12,8,1,5,20,
+p:0
+C:1
+***********Broken out of while loop of decrease function********************
+The Curr Node is 19
+All bools-------------------------------------------
+20<14 : False
+End of bools------------------------------------------
+New Size is 0
+Called heapify on 1
+21 vs 15
+1 vs 1
+The extracted minHeap node is :(18,15,6)
+The heap after extraction is :
+Heap is :
+After extraction,map is : 14,7,11,10,13,4,3,6,15,16,17,19,9,18,2,12,8,1,5,20,
+The adj list of 18 is:
+The list is :18->4(1),6(7),15(7),17(5),
+
+Starting Curr Node in adjList is 4(1)
+Traversing through the adj list....
+The Curr Node is 4
+All bools-------------------------------------------
+16<32 : True
+End of bools------------------------------------------
+Dist from (18,15,6) to 4 is 16
+The distance arr after updation is :
+8,9,7,16,2,14,12,11,6,4,7,2,33,4,21,33,17,15,14,0,
+Calling decrease function for vertex 4.....
+map is : 14,7,11,10,13,4,3,6,15,16,17,19,9,18,2,12,8,1,5,20,
+map indx of 4 is c:10
+Heap is :
+Parent Index is : 5
+The d val of child and parent is 16,14
+***********Broken out of while loop of decrease function********************
+The Curr Node is 6
+All bools-------------------------------------------
+22<14 : False
+End of bools------------------------------------------
+The Curr Node is 15
+All bools-------------------------------------------
+22<21 : False
+End of bools------------------------------------------
+The Curr Node is 17
+All bools-------------------------------------------
+20<17 : False
+End of bools------------------------------------------
+Destination Path Distance
+
+1	11	8
+2	5	9
+3	20	7
+4	18	16
+5	20	2
+6	7	14
+7	2	12
+8	2	11
+9	10	6
+10	20	4
+11	14	7
+12	20	2
+13	5	33
+14	12	4
+15	17	21
+16	9	33
+17	6	17
+18	6	15
+19	8	14
+20	0	0

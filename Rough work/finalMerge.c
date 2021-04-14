@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include <math.h>
+//#include <math.h>
 #include <unistd.h>
 
 #define INFI 9999
@@ -131,7 +131,7 @@ void heapify(minHeap* mH,int target){
 	printf("\nCalled heapify on %d",target);
 	int p,c,n;
 	p = target;//parent index
-	c = 2*p+1;//left child index
+	c = 2*p;//left child index
 	n = mH->size;//curr num vertices
 	minHeapNode** H = mH->H;//the heap array
 
@@ -217,8 +217,11 @@ void decrease(minHeap* mH,int v,int newDst){
 	(mH->H)[c]->d = newDst;
 	printHeapArr(mH->H,mH->size);
 
-	float t = (float)(c-1)/2;
-	int p = (int)ceil(t);
+	/*float t = (float)(c-1)/2;
+	int p = (int)ceil(t);*/
+	//test purpose
+	//if(c+1 <= mH->size && mH->H[c] > mH->H[c+1]) c = c+1;
+	int p = c/2;
 	printf("\nParent Index is : %d",p);
 
 	int cVal = mH->H[c]->d ;
@@ -242,15 +245,18 @@ void decrease(minHeap* mH,int v,int newDst){
 		
 		//move child to parent pos
 		c = p;
+		//test purpose
+		//if(c+1 <= mH->size && mH->H[c] > mH->H[c+1]) c = c+1;
 		//find new pparent index
-		float t = (float)(c-1)/2;
+		/*float t = (float)(c-1)/2;
 		printf("\nt:%f",t);
-		p = (int)ceil(t);
+		p = (int)ceil(t);*/
+		p = c/2;
 		printf("\np:%d",p);
 		printf("\nC:%d",c);
-		int cntrl;
-		printf("\nPress 1 to continue");
-		scanf("%d",&cntrl);
+		//int cntrl;
+		//printf("\nPress 1 to continue");
+		//scanf("%d",&cntrl);
 	}
 	printf("\n***********Broken out of while loop of decrease function********************");
 }
@@ -261,7 +267,7 @@ void printHeap(minHeapNode** H,int n){
 }
 
 void printRes(int distance[],int n,minHeapNode** H,int* map){
-	printf("\nDestination	Path	Distance\n");
+	printf("\nDestination Path Distance\n");
 	for(int i = 1;i<=n;i++){
 		printf("\n%d\t%d\t%d",i,H[map[i]]->p,distance[i]);
 	}
@@ -288,11 +294,9 @@ void boolPrinter(bool x){
 	else printf("False");
 }
 
-//function that calculates distance of shortest path from given src
-//to all otehr vertices of the graph
+//function that calculates distance of shortest path from other vertices to dest vertex
 void dijkstra(Graph* G,int dest){
-	//dest == src here
-	//create a min heap to represent distances from the dst vertex
+	//create a min heap to store vertices whose minimized distances arent found.
 	int numVert = G->V;
 	printf("\nG->V is %d",numVert);
 	minHeap* mH = createMinHeap(numVert);
@@ -311,12 +315,13 @@ void dijkstra(Graph* G,int dest){
 		distance[i] = (int)INFI;
 	}
 
-	//initialize minimum heap array with min heap nodes and map with initial pos in heap
+	//initialize minimum heap array with min heap nodes
 	minHeapNode** H = mH->H;
 	int* map = mH->map;
 	for(int i = 1;i<=numVert;i++){
-		//let the predecessor of all nodes be "0" ie non existent in the beg
+		//let the predecessor of all nodes be "0" ie non existent in the start
 		H[i] = newMinHeapNode(i,distance[i],0);
+		//position in array same as that of index
 		map[i] = i;
 	}
 	printHeapArr(H,numVert);
@@ -325,13 +330,14 @@ void dijkstra(Graph* G,int dest){
 	printf("\nMap is :");
 	intArrPrinter(map,numVert);
 
-	//make the distance of dst vertex from itself zero
+	//make the distance of dest vertex from itself as zero
 	distance[dest] = 0;
 	printf("\nDistance array is :");
 	intArrPrinter(distance,numVert);
 		
-	//hence find new position of dest vertex
+	//hence find new position of dest vertex in the minHeap
 	decrease(mH,dest,distance[dest]);
+	//minHeap array includes all vertices
 	mH->size = numVert;
 
 	printf("\nBefore entering dijkstra,map is : ");
@@ -381,10 +387,11 @@ void dijkstra(Graph* G,int dest){
 			printf("\nEnd of bools------------------------------------------");
 
 			//if(doesContain(mH,v) && distance[xVal] != INFI && distance[xVal] + curr->weight < distance[v]){
+			//if new path has lesser distance with through xVal
 			if(distance[xVal] + curr->weight < distance[v]){
 				printf("\nDist from ");minHeapNodePrinter(x);printf(" to %d is %d",curr->value,distance[xVal] + curr->weight);
 
-				//predecessor
+				//predecessor calculation
 				mH->H[mH->map[v]]->p = xVal;
 
 				//calc new distance
@@ -519,6 +526,7 @@ int main(){
 			if(givenWeight > 0){
 				printf("\nWeight greater than zero...");
 				Edge E;
+				//add in reverse order in order to account for dest and src reversal
 				E.src = givenNeightbour;
 				E.dest = givenSrc;
 				E.weight = givenWeight;
