@@ -5,7 +5,7 @@
 #include <math.h>
 #include <unistd.h>
 
-#define INFINITY 9999
+#define INFI 9999
 
 typedef struct minHeapNode{
 	int V; //vertex number
@@ -191,14 +191,14 @@ bool doesContain(minHeap* mH,int V){
 	return false;
 }
 
-printHeapArr(minHeapNode** H,int numVert){
+void printHeapArr(minHeapNode** H,int numVert){
 	printf("\nHeap is :");
 	for(int i = 1;i<=numVert;i++){
 		printf("(%d,%d,%d),",H[i]->V,H[i]->d,H[i]->p);
 	}
 }
 
-intArrPrinter(int* arr,int n){
+void intArrPrinter(int* arr,int n){
 	for(int i = 1;i<=n;i++){
 		printf("%d,",arr[i]);
 	}
@@ -260,10 +260,10 @@ void printHeap(minHeapNode** H,int n){
 	printf("..................\n");
 }
 
-void printRes(int distance[],int n){
-	printf("\nDestination	Distance\n");
+void printRes(int distance[],int n,minHeapNode** H,int* map){
+	printf("\nDestination	Path	Distance\n");
 	for(int i = 1;i<=n;i++){
-		printf("\n%d\t%d",i,distance[i]);
+		printf("\n%d\t%d\t%d",i,H[map[i]]->p,distance[i]);
 	}
 }
 
@@ -308,7 +308,7 @@ void dijkstra(Graph* G,int dest){
 
 	//initially all vertices are at zero distance
 	for(int i = 1;i<=numVert;i++){
-		distance[i] = (int)INFINITY;
+		distance[i] = (int)INFI;
 	}
 
 	//initialize minimum heap array with min heap nodes and map with initial pos in heap
@@ -340,7 +340,7 @@ void dijkstra(Graph* G,int dest){
 	printf("\nEntering Dijkstras while loop............");
 	//until there are nodes whose shortest distance is not yet finalized
 	while(!isEmpty(mH->size)){
-		//extract the vertes with minimum distance from dest vertex
+		//extract the vertex with minimum distance from dest vertex
 		minHeapNode* x = extractminMode(mH);
 		int xVal = x->V;
 		printf("\nThe extracted minHeap node is :");
@@ -349,8 +349,6 @@ void dijkstra(Graph* G,int dest){
 		printHeapArr(mH->H,mH->size);
 		printf("\nAfter extraction,map is : ");
 		intArrPrinter(map,mH->capacity);
-		
-		//**********account for predecessor node**********************
 
 		//update the distance of all adacent vertexes of extracted min node
 		Node* first = G->adjList[xVal].next;
@@ -376,15 +374,18 @@ void dijkstra(Graph* G,int dest){
 			printf("\nAll bools-------------------------------------------");
 			//printf("\ndoesContain(mH,v): ");
 			//boolPrinter(doesContain(mH,v));
-			//printf("\ndistance[xVal] != INFINITY :");
-			//boolPrinter(distance[xVal] != INFINITY);
+			//printf("\ndistance[xVal] != INFI :");
+			//boolPrinter(distance[xVal] != INFI);
 			printf("\n%d<%d : ",distance[xVal] + curr->weight,distance[v]);
 			boolPrinter(distance[xVal] + curr->weight < distance[v]);
 			printf("\nEnd of bools------------------------------------------");
 
-			//if(doesContain(mH,v) && distance[xVal] != INFINITY && distance[xVal] + curr->weight < distance[v]){
+			//if(doesContain(mH,v) && distance[xVal] != INFI && distance[xVal] + curr->weight < distance[v]){
 			if(distance[xVal] + curr->weight < distance[v]){
 				printf("\nDist from ");minHeapNodePrinter(x);printf(" to %d is %d",curr->value,distance[xVal] + curr->weight);
+
+				//predecessor
+				mH->H[mH->map[v]]->p = xVal;
 
 				//calc new distance
 				distance[curr->value] = distance[xVal] + curr->weight;
@@ -402,7 +403,7 @@ void dijkstra(Graph* G,int dest){
 	}
 
 	//print the distances
-	printRes(distance,numVert);
+	printRes(distance,numVert,mH->H,mH->map);
 	
 }
 
