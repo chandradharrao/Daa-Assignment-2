@@ -34,7 +34,7 @@ typedef struct Graph{
 	int V; //num of vertices in graph
 }Graph;
 
-
+void driverFunc(void);
 void printList(Node head);
 Graph* createGraph(int numVert);
 void addVertices(Graph* G,Edge E);
