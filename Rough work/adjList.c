@@ -125,7 +125,7 @@ void printGraph(Graph* G,int numVert){
 
 int main(){
 	int numVert,numEdges;
-	Node *test=(Node*)malloc(sizeof(Node));
+	//Node *test=(Node*)malloc(sizeof(Node));
 	printf("\nEnter number of vertices\t");
 	//scanf("%d",&numVert);
 	numVert = 4;

@@ -62,7 +62,7 @@ void dijkstra(Graph* G,int dest){
 	minHeapNode** H = mH->H;
 	int* map = mH->map;
 	for(int i = 0;i<numVert;i++){
-		//let the parent of all nodes be "0" ie non existent in the beg
+		//let the predecessor of all nodes be "0" ie non existent in the beg
 		H[i] = newMinHeapNode(i,distance[i],0);
 		map[i] = i;
 	}
@@ -72,13 +72,13 @@ void dijkstra(Graph* G,int dest){
 	decrease(mH,dest,distance[dest]);
 	mH->size = numVert;
 
-	//consideration abut parent node
-
 	//until there are nodes whose shortest distance is not yet finalized
 	while(!isEmpty(mH->size)){
 		//extract the vertes with minimum distance from dest vertex
 		minHeapNode* x = extractminMode(mH);
 		int xVal = x->V;
+		
+		//account for predecessor node
 
 		//update the distance of all adacent vertexes of extracted min node
 		Node* first = G->adjList[xVal].next;
