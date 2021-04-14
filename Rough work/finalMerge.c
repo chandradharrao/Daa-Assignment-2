@@ -106,6 +106,10 @@ bool isEmpty(int n){
 //address of pointers to node are of type minHeapNode**
 void swapMinHeapNodes(minHeapNode** H,int p,int target){
 	minHeapNode* temp = H[p];
+	printf("\n--------------");
+	printf("\nindx1 is: %d",p);
+	printf("\nindx2 is: %d",target);
+	printf("\n----------------");
 	H[p] = H[target];
 	H[target] = temp;
 }
@@ -122,6 +126,7 @@ void swapMapNodes(int* map,minHeapNode* n1,minHeapNode* n2){
 
 //heapifies the array starting from the target index
 void heapify(minHeap* mH,int target){
+	printf("\nCalled heapify on %d",target);
 	int p,c,n;
 	p = target;//parent index
 	c = 2*p+1;//left child index
@@ -135,9 +140,11 @@ void heapify(minHeap* mH,int target){
 	//if right child exists and is lesser
 	if(c+1<=n && H[c+1]->d < H[p]->d)
 		p = c+1;
+
+	printf("\n%d vs %d",p,target);
 	//swap the node to target position
 	if(p!=target){
-		printf("\nFinsihed swapping...");
+		printf("\nParent != target");
 		swapMinHeapNodes(H,p,target);
 		swapMapNodes(mH->map,mH->H[p],mH->H[target]);
 		int nxtPos = p;
@@ -153,28 +160,46 @@ minHeapNode* extractminMode(minHeap* mH){
 	//first node is min node
 	minHeapNode* root = (mH->H)[1];
 
-	//replace root with last node and 
+	//replace root with last node
+	//2,1,3,2
 	(mH->H)[1] = (mH->H)[mH->size];
+	//replace last node with extracted
+	//2,1,3,4
+	(mH->H)[mH->size] = root;
 
-	//update map value ie heap array position of the last node
-	(mH->map)[mH->size] = 1;
+	//update map value 
+	//ie heap array position of the last node
+	(mH->map)[(mH->H)[1]->V] = 1;
 	//update value of first node to the end of non -heap array
-	(mH->map)[1] = (mH->size);
+	(mH->map)[(mH->H)[mH->size]->V] = (mH->size);
 
 	//reduce heap size
 	mH->size = (mH->size) - 1;
+	printf("\nNew Size is %d",mH->size);
 	//heapify the heap from the new first node
-	//heapify(mH,1);
+	heapify(mH,1);
 
 	return root;
 }
 
 //function to check if node is present in heap in O(1) time
 bool doesContain(minHeap* mH,int V){
-	int* map = mH->map;
 	//accounted for vetrex scheme of 1 to V
-	if(V <= mH->size) return true;
+	if(mH->map[V] <= mH->size) return true;
 	return false;
+}
+
+printHeapArr(minHeapNode** H,int numVert){
+	printf("\nHeap is :");
+	for(int i = 1;i<=numVert;i++){
+		printf("(%d,%d,%d),",H[i]->V,H[i]->d,H[i]->p);
+	}
+}
+
+intArrPrinter(int* arr,int n){
+	for(int i = 1;i<=n;i++){
+		printf("%d,",arr[i]);
+	}
 }
 
 //reduce the dist value of the vertex v and reheapify
@@ -182,34 +207,61 @@ void decrease(minHeap* mH,int v,int newDst){
 	//grab the index in heap array of node with value v from the map
 	int* map = mH->map;
 	int c = map[v];
-	printf("\nChild indx is c:%d",c);
+	printf("\nmap is : ");
+	intArrPrinter(map,mH->capacity);
+	printf("\nmap indx of %d is c:%d",v,c);
 
 	//grab the node at index c and update dist
 	(mH->H)[c]->d = newDst;
-	int p = (c-1)/2;
-	while(p > 1 && mH->H[c]->d < mH->H[p]->d){
+	printHeapArr(mH->H,mH->size);
+
+	float t = (float)(c-1)/2;
+	int p = (int)ceil(t);
+	printf("\nParent Index is : %d",p);
+
+	int cVal = mH->H[c]->d ;
+	int pVal = mH->H[p]->d;
+	printf("\nThe d val of child and parent is %d,%d",cVal,pVal);
+
+	while(p >= 1 && cVal< pVal){
+		printf("\n child val lesser than parent val");
+		printf("\nNew child and parent indx : (%d,%d)",c,p);
+
+		//swap in map
+		swapMapNodes(map,mH->H[p],mH->H[c]);
+		intArrPrinter(map,mH->size);
+
 		//swap child and parent
 		swapMinHeapNodes(mH->H,p,c);
-		swapMapNodes(map,mH->H[p],mH->H[c]);
-
+		printf("\nAfter swapping,heap is :");
+		printHeapArr(mH->H,mH->size);
+		printf("\nAfter swapping,map is : ");
+		intArrPrinter(map,mH->capacity);
+		
 		//move child to parent pos
 		c = p;
 		//find new pparent index
-		p = (c-1)/2;
+		float t = (float)(c-1)/2;
+		printf("\nt:%f",t);
+		p = (int)ceil(t);
+		printf("\np:%d",p);
+		printf("\nC:%d",c);
+		int cntrl;
+		printf("\nPress 1 to continue");
+		scanf("%d",&cntrl);
 	}
+	printf("\n***********Broken out of while loop of decrease function********************");
 }
 
 void printHeap(minHeapNode** H,int n){
-	for(int i = 1;i<=n;i++){
-		printf("%d,",H[i]->V);
-	}
+	printHeapArr(H,n);
 	printf("..................\n");
 }
 
 void printRes(int distance[],int n){
 	printf("\nDestination	Distance\n");
-	for(int i = 0;i<n;i++){
-		printf("%d\t%d\n",i,distance[i]);
+	for(int i = 1;i<=n;i++){
+		printf("\n%d\t%d",i,distance[i]);
 	}
 }
 
@@ -225,6 +277,15 @@ minHeap* createMinHeap(int numVert){
 	return newHeap;
 }
 
+void minHeapNodePrinter(minHeapNode* x){
+	printf("(%d,%d,%d)",x->V,x->d,x->p);
+}
+
+void boolPrinter(bool x){
+	if(x) printf("True");
+	else printf("False");
+}
+
 //function that calculates distance of shortest path from given src
 //to all otehr vertices of the graph
 void dijkstra(Graph* G,int dest){
@@ -237,7 +298,7 @@ void dijkstra(Graph* G,int dest){
 	if(mH == NULL){
 		printf("Err.."); return;
 	}else{
-		printf("\nAssigned Heap....");
+		printf("\nAssigned Heap to mH....");
 	}
 
 	//array to store minimum distance of each vertex from dst
@@ -256,38 +317,83 @@ void dijkstra(Graph* G,int dest){
 		H[i] = newMinHeapNode(i,distance[i],0);
 		map[i] = i;
 	}
+	printHeapArr(H,numVert);
+
 	//print the map created
 	printf("\nMap is :");
-	for(int i = 1;i<=numVert;i++){
-		printf("%d,",mH->map[i]);
-	}
+	intArrPrinter(map,numVert);
+
 	//make the distance of dst vertex from itself zero
 	distance[dest] = 0;
+	printf("\nDistance array is :");
+	intArrPrinter(distance,numVert);
+		
 	//hence find new position of dest vertex
 	decrease(mH,dest,distance[dest]);
 	mH->size = numVert;
 
+	printf("\nBefore entering dijkstra,map is : ");
+	intArrPrinter(map,mH->capacity);
+
+	printf("\nEntering Dijkstras while loop............");
 	//until there are nodes whose shortest distance is not yet finalized
 	while(!isEmpty(mH->size)){
 		//extract the vertes with minimum distance from dest vertex
 		minHeapNode* x = extractminMode(mH);
 		int xVal = x->V;
+		printf("\nThe extracted minHeap node is :");
+		minHeapNodePrinter(x);
+		printf("\nThe heap after extraction is :");
+		printHeapArr(mH->H,mH->size);
+		printf("\nAfter extraction,map is : ");
+		intArrPrinter(map,mH->capacity);
 		
-		//account for predecessor node
+		//**********account for predecessor node**********************
 
 		//update the distance of all adacent vertexes of extracted min node
 		Node* first = G->adjList[xVal].next;
 		Node* curr = first;
+		printf("\nThe adj list of %d is:",xVal);
+		printList(G->adjList[xVal]);
+
+		if(curr!=NULL)
+		{
+			printf("\nStarting Curr Node in adjList is %d(%d)",curr->value,curr->weight);
+		}
+		else{
+			printf("\nNull curr");
+		}
+
+		printf("\nTraversing through the adj list....");
 		while(curr!=NULL){
+			printf("\nThe Curr Node is %d",curr->value);
+			int v = curr->value;
+
 			//if shortest distance to curr node from head is not finalized
-			//and  it is less than previously calc value
-			if(doesContain(mH,curr->value) && distance[xVal] + curr->weight < distance[curr->value]){
+			//and  it Fis less than previously calc value
+			printf("\nAll bools-------------------------------------------");
+			printf("\ndoesContain(mH,v): ");
+			boolPrinter(doesContain(mH,v));
+			printf("\ndistance[xVal] != INFINITY :");
+			boolPrinter(distance[xVal] != INFINITY);
+			printf(" %d<%d : ",distance[xVal] + curr->weight,distance[v]);
+			boolPrinter(distance[xVal] + curr->weight < distance[v]);
+			printf("\nEnd of bools------------------------------------------");
+
+			if(doesContain(mH,v) && distance[xVal] != INFINITY && distance[xVal] + curr->weight < distance[v]){
+				printf("\nDist from ");minHeapNodePrinter(x);printf(" to %d is %d",curr->value,distance[xVal] + curr->weight);
+
 				//calc new distance
 				distance[curr->value] = distance[xVal] + curr->weight;
+				printf("\nThe distance arr after updation is :\n");
+				intArrPrinter(distance,mH->capacity);
+
+				printf("\nCalling decrease function for vertex %d.....",curr->value);
 				//update it in both map and heap
 				decrease(mH,curr->value,distance[curr->value]);
 			}
 			curr = curr->next;
+			
 		}
 
 	}
@@ -418,7 +524,7 @@ int main(){
 		printf("\nouter loop..");
 	}
 	printf("\nFinished Making Graph....");
-	//printGraph(G,num_vertices);
+	printGraph(G,num_vertices);
 	dijkstra(G,num_vertices);
 	return 0;
 }
