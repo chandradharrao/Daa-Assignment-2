@@ -15,7 +15,7 @@ void driverFunc(){
 	//iterator for an_arr
 	int anArr_iter = 0;
 	int num_vertices = 0;
-	int** adjMatrix = NULL;
+	int** tempAdjHolder = NULL;
 
 	fptr = fopen("adjacencylist.txt","r");
 	if(fptr == NULL){
@@ -57,15 +57,15 @@ void driverFunc(){
 			num_vertices = an_Arr[anArr_iter];
 			num_vertices++;//accounts for number of vertices when starting from 1 instead of 1
 			//printf("\nThe number of vertices are %d",num_vertices);
-			adjMatrix = (int**)malloc(sizeof(int*)*num_vertices);
+			tempAdjHolder = (int**)malloc(sizeof(int*)*num_vertices);
 			for(int i = 0;i<num_vertices;i++){
-				adjMatrix[i] = (int*)malloc(sizeof(int)*num_vertices);
+				tempAdjHolder[i] = (int*)malloc(sizeof(int)*num_vertices);
 			}
 
 			//initialize with zeroes
 			for(int i = 1;i<num_vertices;i++){
 				for(int j = 1;j<num_vertices;j++){
-					adjMatrix[i][j] = 0;
+					tempAdjHolder[i][j] = 0;
 				}
 			}
 			//printf("\nCreated 2d Array");
@@ -75,7 +75,7 @@ void driverFunc(){
 			int wei = 2;
 
 			while(wei < num_cntr){
-				adjMatrix[an_Arr[0]][an_Arr[neigh]] = an_Arr[wei];
+				tempAdjHolder[an_Arr[0]][an_Arr[neigh]] = an_Arr[wei];
 				neigh = neigh + 2;
 				wei = wei + 2;
 			}
@@ -91,7 +91,7 @@ void driverFunc(){
 	for(int i = 1;i<num_vertices;i++){
 		//printf("\n");
 		for(int j = 1;j<num_vertices;j++){
-			//printf("%d ",adjMatrix[i][j]);
+			//printf("%d ",tempAdjHolder[i][j]);
 		}
 	}
 
@@ -100,14 +100,15 @@ void driverFunc(){
 	num_vertices--;
 	//printf("\nThe number of vertices is : %d",num_vertices);
 	Graph* G = createGraph(num_vertices);
+	/***************Creating Adjacency List***************************/
 	for(int i = 1;i<=num_vertices;i++){
 		((G->adjList)[i]).value = i;
 		int givenSrc = i;
 		for(int j = 1;j<=num_vertices;j++){
 			//printf("\n(%d,%d)",i,j);
 			int givenNeightbour = j;
-			int givenWeight = adjMatrix[i][j];
-			//("\nadjMatrix[%d][%d] is %d",i,j,givenWeight);
+			int givenWeight = tempAdjHolder[i][j];
+			//("\ntempAdjHolder[%d][%d] is %d",i,j,givenWeight);
 			if(givenWeight > 0){
 				////printf("\nWeight greater than zero...");
 				Edge E;
