@@ -371,7 +371,8 @@ void printRes(int distance[],int n,minHeapNode** H,int* map){
 	//Destinarion,Path,Distance
 	//printf("\nDest,Path,Dist\n");
 	for(int i = 1;i<n;i++){
-		printf("\n%d ",i);
+		if(i == 1) printf("%d ",i);
+		else printf("\n%d ",i);
 		if(distance[i] != INFI){
 			printf("%d ",i);
 			printPath(H[map[i]],H,map);
